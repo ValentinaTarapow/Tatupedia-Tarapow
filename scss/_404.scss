@@ -1,0 +1,27 @@
+$anchoalto: 100vh;
+#page404{
+    height: $anchoalto;
+    background-image: url(../media/image/components/404bg.svg) ;
+    #section-404{
+        font-weight: bold;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        border: solid black;
+        width: $anchoalto/2;
+
+        .text-404{
+            text-align: center;
+            h1{
+                font-family: "Shrikhand", cursive;
+            }
+            .homebtn{
+                background-color: #64dfdf;
+                text-decoration: none;
+                text-align: center;
+                border: solid black;
+                border-radius: 8px;
+                font-family: "Shrikhand",cursive;
+            }
+        }
+    }
+}

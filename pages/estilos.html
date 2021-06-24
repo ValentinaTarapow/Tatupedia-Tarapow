@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="media/image/components/manchaIcon.ico" type="image/x-icon">
+
+    <!-- METAETIQUETAS -->
+    <meta name="keywords" content="TATTOO, ESTILO, TATUAJE, TINTA, LINEA, NEWSCHOOL, MICROREALISMO, MASCOTAS, COLLAGE, HANDPOKED,COVER UPS">
+    <meta name="description" content="Somos un sitio web diseñado especialmente para adentrarte, guiarte e informarte dentro del mundo de los tatuajes. Aquí encontrarás toda la información necesaria sobre los distintos estilos de tatuajes, sus características y como encontrar tu profesional perfecto">
+
+    <!-- Linkeo Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- Linkeo de CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+
+    
+    <title>Tatupedia: Estilos</title>
+</head>
+
+
+
+
+
+<body>
+    <header>
+        <!-- Logo boton volver a inicio -->
+        <section class="row">
+            <div class="col rayita d-flex align-items-center justify-content-end">
+                <p id="marca" class="titulo-negro text-uppercase mobile-display-none">Tatupedia</p>
+            </div>
+
+            <div class="col rayita d-flex justify-content-center" >
+                <a id="logo" class="" href="../index.html"><img src="../media/image/components/logo.svg" alt="logo botellas de tinta"></a>
+            </div>
+
+            <div class=" col rayita d-flex align-items-center" >
+                <p id="slogan" class="subtitulo-turquesa text-uppercase mobile-display-none">when the ink comes with ease</p>
+            </div>
+            
+        </section> 
+
+        <!-- Navegacion-->
+        <nav class="navbar navbar-expand-lg navbar-light pt-5">
+            <div class="container-fluid">
+                <button class="navbar-toggler border-dark border-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a id="brand-mobile" class="navbar-brand" href="#">Tatupedia</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-around w-100">
+                        <li class="nav-item rounded-3 m-auto">
+                            <a class="nav-link  text-light"  href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item rounded-3 m-auto">
+                            <a class="nav-link text-light"  href="tatuadores.html">Tatuadores</a>
+                        </li>
+                        <li class="nav-item rounded-3 m-auto">
+                            <a class="nav-link active text-light" aria-current="page" href="estilos.html">Estilos</a>
+                        </li>
+                        <li class="nav-item rounded-3 m-auto">
+                            <a class="nav-link text-light" href="estudios.html">Estudios</a>
+                        </li>
+                        <li class="nav-item rounded-3 m-auto">
+                            <a class="nav-link text-light" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!----- Fin del navegador ----->
+    </header>
+
+
+
+    <main>
+
+        <div class="h1-container">
+            <h1>Estilos</h1>
+        </div>
+
+        <!-------Grid hipervinculos relativos a la raiz---------->
+        <section id="botonera">
+            <div class="grid-container mobile-display-none">
+                <section class="grid-estilos">
+                    <a href="#new-school" class="botonera-item">NewSchool</a>
+                    <a href="#sketch" class="botonera-item">Sketch</a>
+                    <a href="#ignorant" class="botonera-item">Ignorant</a>
+        
+                    <a href="#handpoked" class="botonera-item">Handpoked</a>
+                    <a href="#microrealismo" class="botonera-item">Microrealismo</a>
+                    <a href="#cover" class="botonera-item">Cover</a>
+                </section>
+            </div>
+        </section>
+        <!-------Fin grid hipervinculos relativos a la raiz---------->
+
+        <!-------Buscador Dropdown para Mobile---------->
+        <div id="dropdown-mobile" class="dropdown my-4">
+            <button class="btn btn-light dropdown-toggle w-100" type="button" id="dropdown-button-buscador" data-bs-toggle="dropdown" aria-expanded="false">
+                🔍 Buscador
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark w-100" aria-labelledby="dropdownMenuDark">
+                <li><a class="dropdown-item" href="#new-school">New School</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#sketch">Sketch</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#ignorant">Ignorant</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#handpoked">Handpoked</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#microrealismo">Microrealismo</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#cover">Cover Ups</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li class="d-flex justify-content-center">
+                    <button type="button" class="btn-close" aria-label="Close"></button>
+                </li>
+            </ul>
+        </div>
+        <!-------Fin Buscador Dropdown para Mobile---------->
+
+        <!--  definicion y desarrollo de secciones -->
+
+        <section class="container-fluid">
+            <div class="row">
+                <section id="new-school" class="seccion-negro col-lg-9 col-md-9 col-sm-12">
+                    <h2>New School</h2>
+                    <p>La nueva escuela es un estilo de tatuaje que se originó en la década de 1970 influenciado por algunas características del tatuaje de la vieja escuela en los Estados Unidos.</p>
+                    <p>Este estilo se caracteriza por el uso de contornos gruesos, colores vivos y representaciones exageradas del tema</p>
+                </section>
+                <div class="col-lg-3 col-md-3 col-sm-0"></div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-0"></div>
+                <section id="sketch" class="seccion-blanco col-lg-9 col-md-9 col-sm-12">
+                    <h2>Sketch</h2>
+                    <ol>
+                        <li>El diseño: Se construye a partir de líneas irregulares que perfilan más que delimitar los contornos del diseño.</li>
+                        <li>El color: El negro domina los diseños de tipo boceto. No es que no puedan aplicarse colores a estos tatuajes, pero la esencia del estilo está marcada por esos trazos negros como los que un pintor boceta sobre un lienzo antes de empezar a pintar con detalle.</li>
+                        <li>Los fondos: El poder de este estilo de tatuaje está precisamente en el dibujo que apenas insinúa por lo que carece de fondos que le restarían protagonismo y brillantez. En este caso, menos es más.</li>
+                        <li>Los tamaños: No hay límite de tamaño para los tatuajes sketch. Quedan igual de bien en pequeño formato que sobre una superficie más grande.</li>
+                        <li>Los temas: Animales, plantas, personajes de películas o cuentos, paisajes...Nada escapa a las agujas de un tatuador sketch porque su inspiración es ¡el mundo!</li>
+                    </ol>
+                </section>
+            </div>
+
+
+            <hr>
+            <div class="row">
+                <section id="ignorant" class="seccion-negro col-lg-9 col-md-9 col-sm-12">
+                    <h2>Ignorant</h2>
+                    <p>Líneas simples, tinta negra predominante, palabras, frases y tachaduras. 
+                        <br> Las imágenes de esta corriente comunican con pocos elementos pero producen mensajes potentes. Como si hubiera sido hecho por un chico que recién aprende arte: ingenuo y puro. El ignorant style es una reacción a la estandarización del grafiti. No hay reglas. 
+                    </p>
+                </section>
+                <div class="col-lg-3 col-md-3 col-sm-0"></div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-0"></div>
+                <section id="handpoked" class="seccion-blanco col-lg-9 col-md-9 col-sm-12">
+                    <h2>Handpoked</h2>
+                    <p>Este tipo de tatuajes, como su traducción lo indica, se hacen empujando a mano una aguja esterilizada. Básicamente, la técnica consiste en realizar un cambio en el cuerpo mediante el pinchazo en la primera capa de la piel. En esta capa vasal, la repetición de la punción de la aguja lentamente va creando el diseño del tattoo.</p>
+                    <p> Podríamos decir que esta es la manera tradicional de hacer un tatuaje. Y es que, las máquinas de tatuar son un invento relativamente reciente que se hizo popular hace unas décadas con el tattoo convencional americano. Los tatuajes tradicionales a lo largo del planeta se realizaban generalmente con la técnica de Handpoke.</p>
+                </section>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <section id="microrealismo" class="seccion-negro col-lg-9 col-md-9 col-sm-12">
+                    <h2>Microrealismo</h2>
+                    <p>Este estilo crea grandes tatuajes a tamaño pequeño, para realizar este estilo es imprescindible la buena mano, dominio de lineas, sombreados y precisión del artista para conseguir un tatuaje impresionante.</p>
+                    <p>Si te gustan los tatuajes pequeños, el micro realismo te va a apasionar. Entre otras cosas la diferencia en el resultado con un tatuaje grande consiste en la utilización de agujas más finitas, lo que permite añadir muchos detalles en poco tamaño consiguiendo un resultado nítido y preciso.</p>
+                </section>
+                <div class="col-lg-3 col-md-3 col-sm-0"></div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-0"></div>
+                <section id="cover" class="seccion-blanco col-lg-9 col-md-9 col-sm-12">
+                <h2>Cover Ups</h2>
+                <p>Este tipo de tatuajes, como su traducción lo indica, se trata de cubrir un tatuaje previo con un diseño nuevo. </p>
+                <p>No todos los tatuajes se pueden tapar con otro. Especialmente si son realizados en exclusiva con tinta negra y a pesar del paso del tiempo el tattoo sigue luciendo casi como recién hecho. Será muy complicado esconderlo con otro tattoo encima. En estos casos, tenemos dos opciones, disimularlo con otro tatuaje o directamente pasar por el láser y cuando se haya clareado, podremos tatuar sin problemas cualquier cosa encima.</p>
+                </section>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <!-- Flecha fijada para subir al inicio de la pagina -->
+    <section id="fixed-arrow">
+        <a class="d-flex justify-content-end" href="#"> <img class="w-75" src="../media/image/components/flechita.svg" alt=""></a>                 
+    </section>
+    <!----------------------------------------------------->
+
+    <footer class="d-flex flex-column justify-content-center text-center">
+        <strong>Tatupedia: when the ink comes with ease  © 2021</strong>
+
+        <p><span class="word-highlight">Powered by:</span> Valentina Tarapow</p>
+        <div>
+            <a href="https://www.instagram.com/valentarapow/"><img src="../media/image/components/instagram.svg" alt="logo instagram"></a>
+            <a href="https://www.linkedin.com/in/valentina-tarapow/" target="_blank" ><img src="../media/image/components/linkedin.svg" alt="logo linkedin"></a>
+            <a href="mailto:valentinadct@gmail.com" target="_blank" rel="noopener">
+                <img alt="email icon" src="../media/image/components/email.svg">
+            </a>
+        </div>
+    </footer>
+
+
+<!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+</body>
+</html>

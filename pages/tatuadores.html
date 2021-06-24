@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/media/image/components/manchaIcon.ico" type="image/x-icon">
+
+    <!-- METAETIQUETAS -->
+    <meta name="description" content="Somos un sitio web diseñado especialmente para adentrarte, guiarte e informarte dentro del mundo de los tatuajes. Aquí podrás encontrar toda la información necesaria sobre los distintos profesionales con sus propias palabras!">
+    <meta name="keywords" content="TATTOO, TATUAJE, TATUADORES, TATUADORAS, SKETCH, MICROREALISMO, COVER UPS, COLLAGE, NEW SCHOOL, SKU PLUX, DAI BONANO, SEBAS TATTS, RODMAZ TATTT, JONNI MOLINA, JONA SOSSI, CONI SUCARRAT, EZE CANTERO, MAXI FERNANDEZ">
+
+    <!-- Linkeo Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- Linkeo de CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+
+
+    <title>Tatupedia: Tatuadores</title>
+</head>
+
+
+
+
+
+<body>
+    <header>
+        <!-- Logo boton volver a inicio -->
+        <section class="row">
+            <div class="col rayita d-flex align-items-center justify-content-end">
+                <p id="marca" class="titulo-negro text-uppercase mobile-display-none">Tatupedia</p>
+            </div>
+
+            <div class="col rayita d-flex justify-content-center" >
+                <a id="logo" class="" href="../index.html"><img src="../media/image/components/logo.svg" alt="logo botellas de tinta"></a>
+            </div>
+
+            <div class=" col rayita d-flex align-items-center " >
+                <p id="slogan" class="subtitulo-turquesa text-uppercase mobile-display-none">when the ink comes with ease</p>
+            </div>
+            
+        </section> 
+
+        <!-- Navegacion-->
+        <nav class="navbar navbar-expand-lg navbar-light pt-5">
+            <div class="container-fluid">
+                <button class="navbar-toggler border-dark border-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a id="brand-mobile" class="navbar-brand" href="#">Tatupedia</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-around w-100">
+                        <li class="nav-item rounded-3 m-auto">
+                            <a class="nav-link  text-light"  href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item rounded-3 m-auto">
+                            <a class="nav-link active text-light" aria-current="page" href="tatuadores.html">Tatuadores</a>
+                        </li>
+                        <li class="nav-item rounded-3 m-auto">
+                            <a class="nav-link text-light" href="estilos.html">Estilos</a>
+                        </li>
+                        <li class="nav-item rounded-3 m-auto">
+                            <a class="nav-link text-light" href="estudios.html">Estudios</a>
+                        </li>
+                        <li class="nav-item rounded-3 m-auto">
+                            <a class="nav-link text-light" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!----- Fin del navegador ----->
+    </header>
+
+
+
+    <main>
+
+        <div class="h1-container">
+            <h1>Tatuadores</h1>
+        </div>
+
+        <!-------GRID NAVEGACION SECCIONES---------->
+        <section id="botonera">
+            <div class="grid-container mobile-display-none">
+                <div class="grid-tatuadores">
+                    <a href="#dai-bonano" class="botonera-item">Dai Bonano</a>
+                    <a href="#sebas-tatts" class="botonera-item">Sebas Tatts</a>
+                    <a href="#consuelo-sucarrat" class="botonera-item">Consuelo Sucarrat</a>
+                
+                    <a href="#jona-sossi" class="botonera-item">Jona Sossi</a>
+                    <a href="#rodmaz-tatt" class="botonera-item">Rodmaz Tatt</a>
+                    <a href="#jonni-molina" class="botonera-item">Jonni Molina</a>
+                
+                    <a href="#maxi-fernandez" class="botonera-item">Maxi Fernandez</a>
+                    <a href="#skuplux" class="botonera-item">Sku Plux</a>
+                    <a href="#eze-cantero" class="botonera-item">Eze Cantero</a>
+                </div>
+            </div>
+        </section>
+        <!-------FINAL GRID NAVEGACION SECCIONES---------->
+
+        <!-------Buscador Dropdown para Mobile---------->
+        <div id="dropdown-mobile" class="dropdown my-4">
+            <button class="btn btn-light dropdown-toggle w-100" type="button" id="dropdown-button-buscador" data-bs-toggle="dropdown" aria-expanded="false">
+                🔍 Buscador
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark w-100" aria-labelledby="dropdownMenuDark">
+                <li><a class="dropdown-item" href="#dai-bonano">Dai Bonano</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#sebas-tatts">Sebas Tatts</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#consuelo-sucarrat">Consuelo Sucarrat</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#jona-sossi">Jona Sossi</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#rodmaz-tatt">Rodmaz Tatt</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#jonni-molina">Jonni Molina</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#maxi-fernandez">Maxi Fernandez</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#skuplux">Sku Plux</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#eze-cantero">Eze Cantero</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li class="d-flex justify-content-center">
+                    <button type="button" class="btn-close" aria-label="Close"></button>
+                </li>
+            </ul>
+        </div>
+        <!-------Fin Buscador Dropdown para Mobile---------->
+
+        <!--------SECCIONES --------->
+        <section id="tatuadores" class="container-fluid">
+
+            <section id="dai-bonano" class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 card mb-3 seccion-negro">
+                    <div class="row g-0 reverse-mobile">
+                        <div class="col-md-4 d-flex align-items-center justify-content-center">
+                            <div id="carousel1" class="carousel slide w-sm-75 w-md-100 w-lg-100 w-xl-100 w-xxl-100" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://i.ibb.co/Rcp1RgF/dai1.jpg" class="d-block w-100" alt="tatuaje perro" border="0">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://i.ibb.co/17k8W6y/dai2.jpg" class="d-block w-100" alt="tatuaje gato" border="0">                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://i.ibb.co/Yyt2KmS/dai3.jpg" class="d-block w-100" alt="tatuaje perro y gato" border="0">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h2>
+                                        Dai Bonano
+                                        <div id="icon-mobile">
+                                            <a href="https://www.instagram.com/daibonanno/" target="_blank"><img src="../media/image/components/instagram.svg" alt="instagram icon"></a>
+                                        </div>
+                                    </h2>
+                                </div>
+                                <h3 class="text-decoration-underline">¿Cuáles son tus estilos destacados?</h3> 
+                                <p>"Me encanta el micro realismo. Me especializo en retratos de mascotas en tamaños pequeños. Es lo que mas me piden y es una de las cosas que mas me gusta hacer."</p>
+                                <h3 class="text-decoration-underline">¿Cómo describirías dicho/s estilo/s?</h3>
+                                <p>"La idea es copiar lo mas exactamente posible la foto, creando así una réplica de tu mascota pero en tatuaje y en tamaños muy chicos."</p>
+                                <h3 class="text-decoration-underline">Ubicación:</h3>
+                                <p><a href="https://www.instagram.com/estudio.real/" target="_blank">Estudio Real</a>, Villa Urquiza (Capital Federal)</p>
+                                <div class="media-icon-container mobile-display-none">
+                                    <a href="https://www.instagram.com/daibonanno/" target="_blank"><img src="../media/image/components/instagram.svg" alt="instagram icon"></a>
+                                </div>
+                                <div class="link-xs-container">
+                                    <a class="link-xs" href="https://www.instagram.com/daibonanno/" target="_blank">Instagram</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-0"></div>
+            </section>
+
+            <section id="sebas-tatts" class="row">
+                <div class="col-lg-3 col-md-3 col-sm-0"></div>
+                <div class="col-lg-9 col-md-9 col-sm-12 card mb-3 seccion-blanco">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h2>
+                                        Sebas Tatts
+                                        <div id="icon-mobile">
+                                            <a href="https://www.instagram.com/sebas.tatts/" target="_blank"><img src="../media/image/components/instagram.svg" alt="instagram icon"></a>
+                                        </div>
+                                    </h2>
+                                </div>
+                                <h3 class="text-decoration-underline">¿Cuáles son tus estilos destacados?</h3> 
+                                <p>"Creo que mi especialidad es el acuarela/pintura y lo flashero jajaja. Me siento cómodo componiendo imágenes medio raras o más libres, como en el sketch y el water, y por suerte tengo la capacidad de poder plasmar lo que se me ocurre."</p>
+                                <h3 class="text-decoration-underline">¿Cómo describirías dicho/s estilo/s?</h3>
+                                <p>"Describiría lo que hago como algo libre, donde pueden convivir dibujos, imágenes realistas, pintura luces de neón y geometría. Todo lo que ande dando vueltas por mi cabeza básicamente jajajaja."</p>
+                                <h3 class="text-decoration-underline">Ubicación:</h3>
+                                <p>Actualmente tatuando en <a href="https://www.instagram.com/24.tattoo/">24 Tattoo</a> y <a href="https://www.instagram.com/hunchtattoo/">Hunch Tattoo</a>. Cuando va al sur tatúa en <a href="https://www.instagram.com/banderanegratattooclab/">Bandera Negra Tattoo Clab</a> (su amor de verano)</p>
+                                <div class="media-icon-container mobile-display-none">
+                                    <a href="https://www.instagram.com/sebas.tatts/" target="_blank"><img src="../media/image/components/instagram.svg"  alt="instagram icon"></a>
+                                </div>
+                                <div class="link-xs-container">
+                                    <a class="link-xs" href="https://www.instagram.com/sebas.tatts/" target="_blank">Instagram</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-center justify-content-center">
+                            <div id="carousel2" class="carousel slide w-100 w-sm-75" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://i.ibb.co/bB5fMrN/seba1.jpg" class="d-block w-100" alt="collage da vinci" border="0">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://i.ibb.co/2MqWTPg/seba2.jpg" class="d-block w-100" alt="collage elefante" border="0">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://i.ibb.co/cw2jcTJ/seba3.jpg" class="d-block w-100" alt="tatuaje ola de mar" border="0">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="consuelo-sucarrat" class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 card mb-3 seccion-negro">
+                    <div class="row g-0 reverse-mobile">
+                        <div class="col-md-4 d-flex align-items-center justify-content-center">
+                            <div id="carousel3" class="carousel slide w-100 w-sm-75" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://i.ibb.co/Y2wnbS6/coni1.jpg" class="d-block w-100" alt="tatuaje angelito" border="0">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://i.ibb.co/WyQ9Vbg/coni2.jpg" class="d-block w-100" alt="tatuaje bolsa" border="0">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://i.ibb.co/mGh8kFV/coni3.jpg" class="d-block w-100" alt="tatuaje daga" border="0">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h2>
+                                        Coni Sucarrat
+                                        <div id="icon-mobile">
+                                            <a href="https://www.instagram.com/_cstattoo/" target="_blank"><img src="../media/image/components/instagram.svg" alt="instagram icon"></a>
+                                        </div>
+                                    </h2>
+                                </div>
+                                
+                                <h3 class="text-decoration-underline">¿Cuáles son tus estilos destacados?</h3> 
+                                <p>"Mi especialidad son las piezas pequeñas y mi estilo es lineal. Trato de no hacer nada mayor a 10cm de alto. Me gusta hacer piezas chicas full black o con detalles simples de color. Trato de que las piezas sean lo mas minimal posible y que el detalle justifique el tamaño de la pieza. En lo que hago también hay un poco de ignorant style"</p>
+                                <h3 class="text-decoration-underline">¿Cómo describirías dicho/s estilo/s?</h3>
+                                <p>Busco que las piezas que hago sean tiernas. Entiendo los tatus no solamente como una manera de contar nuestras vivencias pero sino también, y principalmente, como una manera de decorar nuestra piel. Por esto mismo busco que sean lo más estéticas y delicadas que me sea posible.</p>
+                                <h3 class="text-decoration-underline">Ubicación:</h3>
+                                <p>Espacio privado en Zona Sur (Capital Federal)</p>
+                                <div class="media-icon-container mobile-display-none">
+                                    <a href="https://www.instagram.com/_cstattoo/" target="_blank"><img src="../media/image/components/instagram.svg"  alt="instagram icon"></a>
+                                </div>
+                                <div class="link-xs-container">
+                                    <a class="link-xs" href="https://www.instagram.com/_cstattoo/" target="_blank">Instagram</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-0"></div>
+            </section>
+
+            <section id="jona-sossi" class="row">
+                <div class="col-lg-3 col-md-3 col-sm-0"></div>
+                <div class="col-lg-9 col-md-9 col-sm-12 card mb-3 seccion-blanco">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h2>
+                                        Jona Sossi
+                                        <div id="icon-mobile">
+                                            <a href="https://www.instagram.com/jona_sossi/" target="_blank"><img src="../media/image/components/instagram.svg" alt="instagram icon"></a>
+                                        </div>
+                                    </h2>
+                                </div>
+                                <h3 class="text-decoration-underline">¿Cuáles son tus estilos destacados?</h3> 
+                                <p>"Me defiendo en la mayoria de los estilos pero mi especialidad es el Newschool"</p>
+                                <h3 class="text-decoration-underline">¿Cómo describirías dicho/s estilo/s?</h3>
+                                <p>"Normalmente el Newschool se caracteriza por ser una caricatura con líneas gruesas y colores brillantes, se suele alterar las proporciones del personaje o elemento que estemos caracterizando. Particularmente el Newschool que hago corresponde a una nueva corriente donde se mezclan líneas gruesa y finas, las proporciones del personaje no se alteran en gran medida y se utilizan sombras mas realistas, en cuanto a los colores siguen siendo brillantes aunque no hay limitación en cuanto a la paleta que se utilice"</p>
+                                <h3 class="text-decoration-underline">Ubicación:</h3>
+                                <p>Estudio privado construido en su casa. Ubicada al borde del casco urbano de La Plata</p>
+                                <div class="media-icon-container mobile-display-none">
+                                    <a href="https://www.instagram.com/jona_sossi/" target="_blank"><img src="../media/image/components/instagram.svg" alt="instagram icon"></a>
+                                </div>
+                                <div class="link-xs-container">
+                                    <a class="link-xs" href="https://www.instagram.com/jona_sossi/" target="_blank">Instagram</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-center justify-content-center">
+                            <div id="carousel4" class="carousel slide w-100 w-sm-75" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://i.ibb.co/104tGtz/jona1.jpg" class="d-block w-100" alt="tatuaje gato" border="0">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://i.ibb.co/87YtHs1/jona2.jpg" class="d-block w-100" alt="tatuaje herramientas" border="0">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://i.ibb.co/wW7gvZS/jona3.jpg" class="d-block w-100" alt="tatuaje maquina de tatuar" border="0">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="rodmaz-tatt" class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 card mb-3 seccion-negro">
+                    <div class="row g-0 reverse-mobile">
+                        <div class="col-md-4 d-flex align-items-center justify-content-center">
+                            <div id="carousel5" class="carousel slide w-100 w-sm-75" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://i.ibb.co/y4gmzQp/rod1.jpg" class="d-block w-100" alt="tatuaje khalisattiva alrededor de ojo" border="0">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://i.ibb.co/VD7Jyrc/rod2.jpg" class="d-block w-100" alt="tatuaje khalisattiva elefante" border="0">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://i.ibb.co/2cqSmFN/rod3.jpg" class="d-block w-100" alt="tatuaje energy oso" border="0">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h2 class="card-title">
+                                    Rodmaz Tatt
+                                    <div id="icon-mobile">
+                                        <a href="https://www.instagram.com/rodmaz-tattt/" target="_blank"><img src="../media/image/components/instagram.svg" alt="instagram icon"></a>
+                                    </div>
+                                </h2>
+                                <h3 class="text-decoration-underline">¿Cuáles son tus estilos destacados?</h3> 
+                                <p>"Se llaman Khallisattva y Energy Tatts"</p>
+                                <h3 class="text-decoration-underline">¿Cómo describirías dicho/s estilo/s?</h3>
+                                <p>"Khallisatva es un estilo creado por mi, es una variante de la caligrafia abstracta. 
+                                <p>Energy Tatts son los diseños con la cintita roja que rodea el objeto o protagonista, tiene texturas y tecnicas de grilla de puntos. Representa la energia intrínseca de la experiencia del tatuaje que te haces, el cómo lo fijamos en la memoria, el contexto en el que estabamos cuando nos tatuamos y cómo fluye en el cuerpo y en la vida. Llegué a ello luego de un largo proceso de exploración"</p>
+                                <h3 class="text-decoration-underline">Ubicación:</h3>
+                                <p>Estudios privados en Recoleta y Balvanera (Capital Federal)</p>
+                                <div class="media-icon-container mobile-display-none">
+                                    <a href="https://www.instagram.com/rodmaz-tattt/" target="_blank"><img src="../media/image/components/instagram.svg"  alt="instagram icon"></a>
+                                </div>
+                                <div class="link-xs-container">
+                                    <a class="link-xs" href="https://www.instagram.com/rodmaz-tattt/" target="_blank">Instagram</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-0"></div>
+            </section>
+
+            <section id="jonni-molina" class="row">
+                <div class="col-lg-3 col-md-3 col-sm-0"></div>
+                <div class="col-lg-9 col-md-9 col-sm-12 card mb-3 seccion-blanco">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h2 class="card-title">
+                                    Jonni Molina
+                                    <div id="icon-mobile">
+                                        <a href="https://www.instagram.com/jonnimolina/" target="_blank"><img src="../media/image/components/instagram.svg" alt="instagram icon"></a>
+                                    </div>
+                                </h2>
+                                <h3 class="text-decoration-underline">¿Cuáles son tus estilos destacados?</h3> 
+                                <p>"Si bien suelen pedirme tatuajes de estilos diversos, algunos haciendo énfasis en tatuajes lineales y solo en negro, otros por el contrario suelen ser muy coloridos y sin líneas que los delimiten como consigna; en lo personal considero que actualmente estoy en la búsqueda de un "estilo" específico que me defina o se convierta en mi especialidad, sin embargo me gusta mucho jugar con las fusiones al momento de preparar los diseños"</p>
+                                <h3 class="text-decoration-underline">¿Cómo describirías dicho/s estilo/s?</h3>
+                                <p>"¿En qué consisten las fusiones? Básicamente en utilizar los rasgos principales de los estilos ya consolidados y catalogados para crear piezas nuevas. Es decir, no usar los conceptos como limitantes sino como puntos de apoyo"</p>
+                                <h3 class="text-decoration-underline">Ubicación:</h3>
+                                <p>Actualmente en <a href="https://www.instagram.com/24.tattoo/" target="_blank" >24 Tattoo Studio </a></p>
+                                <div class="media-icon-container mobile-display-none">
+                                    <a href="https://www.instagram.com/jonnimolina/" target="_blank"><img src="../media/image/components/instagram.svg"  alt="instagram icon"></a>
+                                </div>
+                                <div class="link-xs-container">
+                                    <a class="link-xs" href="https://www.instagram.com/jonnimolina/" target="_blank">Instagram</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-center justify-content-center">
+                            <div id="carousel6" class="carousel slide w-100 w-sm-75" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel6" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel6" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://i.ibb.co/RhmsLzj/jonni1.jpg" class="d-block w-100" alt="tatuaje casette" border="0">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://i.ibb.co/f407RM6/jonni2.jpg" class="d-block w-100" alt="tatuaje buho violeta" border="0">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://i.ibb.co/9hHHBHH/jonni3.jpg" class="d-block w-100" alt="tatuaje buho black and white" border="0">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel6" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="maxi-fernandez" class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 card mb-3 seccion-negro">
+                    <div class="row g-0 reverse-mobile">
+                        <div class="col-md-4 d-flex align-items-center justify-content-center">
+                            <div id="carousel7" class="carousel slide w-100 w-sm-75" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel7" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel7" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel7" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://i.ibb.co/RzLmrTV/maxi1.jpg" class="d-block w-100" alt="collage mujer" border="0">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://i.ibb.co/XzhPkfB/maxi2.png" class="d-block w-100" alt="collage hombre pulpo" border="0">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://i.ibb.co/Hp7Sx9L/maxi3.jpg" class="d-block w-100" alt="collage hombre cerebro" border="0">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel7" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel7" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h2 class="card-title">
+                                    Maxi Fernandez
+                                    <div id="icon-mobile">
+                                        <a href="https://www.instagram.com/maxifernandez_tattoo/" target="_blank"><img src="../media/image/components/instagram.svg" alt="instagram icon"></a>
+                                    </div>
+                                </h2>
+                                <h3 class="text-decoration-underline">¿Cuáles son tus estilos destacados?</h3> 
+                                <p>"No se si tiene un nombre, pero es un Collage Digital"</p>
+                                <h3 class="text-decoration-underline">¿Cómo describirías dicho/s estilo/s?</h3>
+                                <p>"Podriamos describirlo como una mezcla de texturas y elementos que generan una composición. Trabajo diseños únicos que no se repiten y parten de una idea o un concepto"</p>
+                                <h3 class="text-decoration-underline">Ubicación:</h3>
+                                <p><a href="https://www.instagram.com/hunchtattoo/" target="_blank">Hunch Tattoo</a>, Palermo Soho (Capital Federal)</p>
+                                <div class="media-icon-container mobile-display-none">
+                                    <a href="https://www.instagram.com/maxifernandez_tattoo/" target="_blank"><img src="../media/image/components/instagram.svg"  alt="instagram icon"></a>
+                                </div>
+                                <div class="link-xs-container">
+                                    <a class="link-xs" href="https://www.instagram.com/maxifernandez_tattoo/" target="_blank">Instagram</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-0"></div>
+            </section>
+
+            <section id="skuplux" class="row">
+                <div class="col-lg-3 col-md-3 col-sm-0"></div>
+                <div class="col-lg-9 col-md-9 col-sm-12 card mb-3 seccion-blanco">
+                    <div class="row g-0">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h2 class="card-title">
+                                    Sku Plux
+                                    <div id="icon-mobile">
+                                        <a href="https://www.instagram.com/skuplux/" target="_blank"><img src="../media/image/components/instagram.svg" alt="instagram icon"></a>
+                                    </div>
+                                </h2>
+                                <h3 class="text-decoration-underline">¿Cuáles son tus estilos destacados?</h3> 
+                                <p>"No solo es mi especialidad sino que es inventado por mi. En si nunca tuvo un nombre pero hasta el momento mis tatuajes se llaman "en capas""</p>
+                                <h3 class="text-decoration-underline">¿Cómo describirías dicho/s estilo/s?</h3>
+                                <p>"Mi estilo genera la ilusión de capas que se van metiendo adentro de la piel. Guarda cierta relación con el graffiti y la técnica de paper cut."</p>
+                                <h3 class="text-decoration-underline">Ubicación:</h3>
+                                <p><a href="https://www.instagram.com/24.tattoo/" target="_blank"> 24 Tattoo</a> en Balvanera y <a href="https://www.instagram.com/linnea.estudio/" target="_blank"> Linnea Estudio</a> en Villa Urquiza</p>
+                                <div class="media-icon-container mobile-display-none">
+                                    <a href="https://www.instagram.com/skuplux/" target="_blank"><img src="../media/image/components/instagram.svg" alt="instagram icon"></a>
+                                </div>
+                                <div class="link-xs-container">
+                                    <a class="link-xs" href="https://www.instagram.com/skuplux/" target="_blank">Instagram</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex align-items-center justify-content-center">
+                            <div id="carousel8" class="carousel slide w-100 w-sm-75" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel8" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel8" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel8" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://i.ibb.co/2Y3q8B1/sku1.jpg" class="d-block w-100" alt="tatuaje lampara de lava" border="0">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://i.ibb.co/2sdMLy1/sku2.jpg" class="d-block w-100" alt="tatuaje bart simpson border="0">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://i.ibb.co/7tyd7Ds/sku3.jpg" class="d-block w-100" alt="tatuaje lampara de lava" border="0">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel8" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel8" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="eze-cantero" class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 card mb-3 seccion-negro">
+                    <div class="row g-0 reverse-mobile">
+                        <div class="col-md-4 d-flex align-items-center justify-content-center">
+                            <div id="carousel9" class="carousel slide w-100 w-sm-75 data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel9" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel9" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel9" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://i.ibb.co/ft6ZY27/eze1.jpg" class="d-block w-100" alt="tatuaje chihuahua con flores" border="0">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://i.ibb.co/CQg2xS6/eze2.jpg" class="d-block w-100" alt="tatuaje reloj" border="0">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://i.ibb.co/jk5TMvn/eze3.jpg" class="d-block w-100" alt="tatuaje perro realista" border="0">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel9" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel9" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h2 class="card-title">
+                                    Eze Cantero
+                                    <div id="icon-mobile">
+                                        <a href="https://www.instagram.com/eze-canterotattoo/" target="_blank"><img src="../media/image/components/instagram.svg" alt="instagram icon"></a>
+                                    </div>
+                                </h2>
+                                <h3 class="text-decoration-underline">¿Cuáles son tus estilos destacados?</h3> 
+                                <p>"Mi especialidad es el realismo en Black and Grey, los cover ups y arreglo de tatuajes. Aunque me piden y realizo todos los estilos de tattoo"</p>
+                                <h3 class="text-decoration-underline">¿Cómo describirías dicho/s estilo/s?</h3>
+                                <p>
+                                    <ul class="ms-xl-4 ms-lg-4 ms-sm-4"> 
+                                        <li> <b>Realismo en black and grey:</b> Se trata de imagenes realistas en blanco y negro no esquemáticas, la profundidad y estructura de las imágenes se da a través de la aplicación de sombras y algunas luces en la piel .</li>
+                                        <li> <b>Cover up: </b> Es la superposición de un tatuaje con otro para cubrirlo, se implementa en el caso de que el cliente ya no quiera un tattoo.</li>
+                                        <li><b>Arreglo de tatuaje: </b>Es la mejora de un tatuaje que ya tenía el cliente porque esta mal realizado, utilizando el mismo tatuaje, no cubriendolo.</li>
+                                    </ul>
+                
+                                <h3 class="text-decoration-underline">Ubicación:</h3>
+                                <p> Estudio privado en Belgrano (Capital Federal)</p>
+                                <div class="media-icon-container mobile-display-none">
+                                    <a href="https://www.instagram.com/eze-canterotattoo/" target="_blank"><img src="../media/image/components/instagram.svg"  alt="instagram icon"></a>
+                                </div>
+                                <div class="link-xs-container">
+                                    <a class="link-xs" href="https://www.instagram.com/eze-canterotattoo/" target="_blank">Instagram</a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-0"></div>
+            </section>
+
+        </section>
+    </main>
+
+
+    <!-- Flecha fijada para subir al inicio de la pagina -->
+    <section id="fixed-arrow">
+        <a class="d-flex justify-content-end" href="#"> <img class="w-75" src="../media/image/components/flechita.svg" alt=""></a>                 
+    </section>
+    <!----------------------------------------------------->
+
+    <footer class="d-flex flex-column justify-content-center text-center">
+        <strong>Tatupedia: when the ink comes with ease  © 2021</strong>
+
+        <p><span class="word-highlight">Powered by:</span> Valentina Tarapow</p>
+        <div>
+            <a href="https://www.instagram.com/valentarapow/"><img src="../media/image/components/instagram.svg" alt="instagram icon"></a>
+            <a href="https://www.linkedin.com/in/valentina-tarapow/" target="_blank" ><img src="../media/image/components/linkedin.svg" alt="logo linkedin"></a>
+            <a href="mailto:valentinadct@gmail.com" target="_blank" rel="noopener">
+                <img alt="email icon" src="../media/image/components/email.svg">
+            </a>
+        </div>
+    </footer>
+
+<!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+</body>
+</html>

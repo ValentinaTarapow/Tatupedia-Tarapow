@@ -1,0 +1,428 @@
+/* -----------------MEDIA QUERIES----------------- */
+
+/* iPhone 4 ----------- */
+@media only screen and (max-width:319px) {
+
+    /* --------GENERALES-------- */
+    .seccion-negro{
+        padding:10px;
+    }
+
+    .seccion-blanco{
+        padding: 10px;
+    }
+
+    .reverse-mobile{
+        display: flex;
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+
+    .mobile-display-none{
+        display: none;
+    }
+
+    #dropdown-mobile{
+        display: flex;
+        justify-content: center;
+    }
+
+    #brand-mobile{
+        display:unset;
+    }
+
+    #icon-mobile{
+        display:none;
+    }
+
+    .link-xs-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    .link-xs{
+        display: unset;
+        width: 100vh;
+        background-color: #F277A4;
+        border-radius: 15px;
+        border: black solid 2px;
+        padding: 4px;
+        text-decoration: none;
+        font-family: "amaticBold";
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    form{
+        width: 100vh;
+    }
+
+    #fixed-arrow{
+        a{
+            height: 40px;
+            width: 40px;
+            border-radius: 30px 0 0 30px;
+        }
+    }
+
+    main{
+        margin: 5px;
+    }
+
+    .video-size{
+        width: 100%;
+        height: 90%;
+        margin-top: 10px;
+    }
+    /* --------------- */
+
+    /* -----CAROUSEL MIS TATUS----- */
+    #sobre-mi{
+        .carousel-caption{
+            height: 100%;
+        }
+
+        .carousel-caption h5{
+            margin-top: 4px;
+        }
+
+        .width-carousel{
+            width: 90%;
+        }
+    }
+
+    /* --------------- */
+    /* --------ESTUDIOS-------- */
+    .grid-estudios{
+
+        display: flex;
+        flex-direction: column;
+    
+        .flip-card {
+            width: 200px;
+            height: 200px;
+            }
+
+        .flip-card-back {
+            font-size: 15px;
+        }
+
+        .flip-card-front{
+            font-size: 35px;
+        }
+
+        #flip{
+            iframe{
+                height: 100px;
+                width: 95%;
+            }
+        
+            img{
+                width: 25px;
+            }  
+        } 
+
+    }
+    
+/* ------------------------ */
+    
+}
+
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 320px) and (max-width : 380px) {
+
+    /* --------GENERALES-------- */
+    .reverse-mobile{
+        display: flex;
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+
+    .mobile-display-none{
+        display: none;
+    }
+
+    #dropdown-mobile{
+        display: flex;
+        justify-content: center;
+    }
+
+    #brand-mobile{
+        display:unset;
+    }
+
+    #icon-mobile{
+        display:unset;
+    }
+
+    main{
+        margin: 5px;
+    }
+
+    form{
+        width: 100vh;
+    }
+
+    .video-size{
+        width: 70%;
+        height: 70%;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    /* ------------------------ */
+
+    /* -------CAROUSEL MIS TATUS-------- */
+    #sobre-mi{
+        .width-carousel{
+            width: 70%;
+        }
+
+        .carousel-caption{
+            height: 100%;
+        }
+
+        .carousel-caption h5{
+            margin-top: 4px;
+        }
+    }
+
+    /* ------------------------ */
+
+    /* --------ESTUDIOS-------- */
+        .grid-estudios{
+            display: flex;
+            flex-direction: column;
+
+            .flip-card {
+                width: 300px;
+                height: 300px;
+                }
+    
+            .flip-card-back {
+                font-size: 20px;
+            }
+    
+            .flip-card-front{
+                font-size: 60px;
+            }
+    
+            #flip{
+                iframe{
+                    height: 55%;
+                    width: 95%;
+                }
+    
+                img{
+                    width: 15%;
+                }    
+            }
+
+        }
+
+
+    /* ------------------------ */
+
+}
+
+
+
+
+
+@media only screen
+and (min-width : 381px) and (max-width : 480px){
+
+    /* --------GENERALES-------- */
+    .mobile-display-none{
+        display: none;
+    }
+    .reverse-mobile{
+        display: flex;
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+
+    #dropdown-mobile{
+        display: flex;
+        justify-content: center;
+    }
+
+    #brand-mobile{
+        display:unset;
+    }
+    #icon-mobile{
+        display:unset;
+    }
+
+    main{
+        margin: 5px;
+    }
+
+    form{
+        width: 100vh;
+    }
+
+    .video-size{
+        width: 70%;
+        height: 70%;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    /* ------------------------ */
+
+    /* ---CAROUSEL MIS TATUS--- */
+    #sobre-mi{
+        .width-carousel{
+            width: 70%;
+        }
+
+        .carousel-caption{
+            height: 100%;
+        }
+
+        .carousel-caption h5{
+            margin-top: 4px;
+        }
+    }
+    /* --------------- */
+
+    /* --------ESTUDIOS-------- */
+        .grid-estudios{
+            display: flex;
+            flex-direction: column;
+
+            .flip-card {
+            width: 300px;
+            height:300px;
+            }
+
+            .flip-card-front {
+                font-size: 40px;
+            }
+
+            .flip-card-back {
+                font-size: 150%;
+            }
+
+            #flip{
+                iframe{
+                    height: 60%;
+                    width: 95%;
+                }
+
+                img{
+                    width: 15%;
+                }
+            } 
+        }
+
+        
+    /* ------------------------ */
+}
+
+
+
+
+
+@media only screen
+and (min-width : 481px) and (max-width : 767px) {
+
+    /* --------GENERALES-------- */
+    form{
+        width: 100vh;
+    }
+    .mobile-display-none{
+        display: none;
+    }
+    #brand-mobile{
+        display:unset;
+    }
+    #icon-mobile{
+        display: unset;
+    }
+
+    #dropdown-mobile{
+        display: flex;
+        justify-content: center;
+    }
+    /* ------------------------ */
+    .reverse-mobile{
+        display: flex;
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+
+    /* --------ESTUDIOS-------- */
+    .grid-estudios{
+        display: flex;
+        flex-direction: column;
+    }
+    /* ------------------------ */
+
+    /* -------CAROUSEL MIS TATUS-------- */
+    #sobre-mi{
+        .width-carousel{
+            width: 50%;
+        }
+
+        .carousel-caption{
+            height: 100%;
+        }
+
+        .carousel-caption h5{
+            margin-top: 4px;
+        }
+    }
+
+    /* ------------------------ */
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+        #marca{
+            font-size: 1.6em;
+        }
+        #slogan {
+            font-size: 1.6em;
+        }
+    
+
+    form{
+        width: 50vh;
+    }
+
+    /* -------CAROUSEL MIS TATUS-------- */
+    #sobre-mi{
+        .width-carousel{
+            width: 60%;
+        }
+    }
+    /* ------------------------ */
+
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+/* Styles */
+}
+
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+  /* Styles */
+}
+
+/* ------------FIN MEDIA QUERIES------------ */
