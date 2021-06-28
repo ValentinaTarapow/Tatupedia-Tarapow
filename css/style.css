@@ -118,7 +118,8 @@ header {
     header nav .navbar-brand {
       font-family: "amaticBold";
       color: #252525;
-      font-size: 2em; }
+      font-size: 2em;
+      font-weight: bold; }
     header nav .nav-item {
       background-color: #252525;
       border: solid black 3px; }
@@ -320,7 +321,7 @@ footer {
   text-align: center; }
 
 #dropdown-mobile .dropdown-menu {
-  border: #252525 3px solid;
+  border: solid black 3px;
   background-color: whitesmoke;
   box-shadow: 1px 14px 22px 8px rgba(100, 223, 223, 0.64);
   -webkit-box-shadow: 1px 14px 22px 8px rgba(100, 223, 223, 0.64);
