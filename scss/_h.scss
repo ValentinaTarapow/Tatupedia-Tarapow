@@ -1,5 +1,5 @@
 /* --------------H's-------------- */
-
+@import 'variables';
 
 .h1-container{ 
     width: 100%;
@@ -12,7 +12,7 @@
         font-family: "amaticBold";
         font-size: 80px;
         background-color: whitesmoke;
-        border:solid;
+        border:$borde-basic;
         border-radius: 8px;
         text-align: center;
         margin-top: 10px;
