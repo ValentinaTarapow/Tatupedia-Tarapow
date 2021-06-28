@@ -1,4 +1,5 @@
 //ACA VAN A ESTAR TODOS LOS ELEMENTOS QUE ENRIQUECEN LA INTERACCION CON EL USUARIO
+@import 'variables';
 /*---------ELEMENTOS DE MOBILE---------*/
 #dropdown-mobile, #brand-mobile, #icon-mobile, .link-xs, .accordion{
     display: none;
@@ -18,9 +19,9 @@
                 height: 50px;
                 width: 50px;
                 border-radius: 30px 0 0 30px;
-                border-top: solid black;
-                border-bottom: solid black;
-                border-left: solid black;
+                border-top: $borde-basic;
+                border-bottom: $borde-basic;
+                border-left: $borde-basic;
             }
     }
     /*------------*/

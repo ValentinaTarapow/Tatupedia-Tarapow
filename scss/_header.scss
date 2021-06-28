@@ -1,3 +1,4 @@
+@import 'variables';
 /*--------------HEADER--------------*/
 header{
     background-color: transparent;
@@ -15,8 +16,8 @@ header{
 
     nav{
         background-color: whitesmoke;
-        border-top: solid black;
-        border-bottom: solid black;
+        border-top: $borde-basic;
+        border-bottom: $borde-basic;
         margin-top: -35px;
 
         li{

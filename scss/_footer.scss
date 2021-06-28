@@ -1,8 +1,7 @@
+@import 'variables';
 footer{
     background-color: #252525;
-    border-top: solid;
-    border-bottom: solid;
-    border-color:   black;
+    border: $borde-basic;
     padding: 20px; 
     color:black;
     color: whitesmoke;
