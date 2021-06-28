@@ -121,7 +121,7 @@ header {
       font-size: 2em; }
     header nav .nav-item {
       background-color: #252525;
-      border: solid black; }
+      border: solid black 3px; }
   header .titulo-negro {
     color: #252525;
     font-family: "amaticBold";
