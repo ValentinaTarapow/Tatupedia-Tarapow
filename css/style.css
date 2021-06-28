@@ -135,8 +135,8 @@ header {
     font-size: 2em;
     margin-bottom: 0; }
   header .rayita {
-    border-top: solid black;
-    border-bottom: solid black;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
     background-color: whitesmoke;
     height: 60px;
     margin-top: 55px;
