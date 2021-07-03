@@ -297,22 +297,26 @@ footer {
   flex-direction: row;
   width: 100%;
   justify-content: center; }
-  .grid-container .grid-estudios, .grid-container .grid-estilos, .grid-container .grid-tatuadores {
-    width: fit-content;
-    height: fit-content;
-    margin: 40px;
-    text-align: center;
-    gap: 30px;
-    display: grid; }
-  .grid-container .grid-estudios {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr; }
-  .grid-container .grid-estilos {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr; }
-  .grid-container .grid-tatuadores {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr; }
+
+.grid-estudios, .grid-estilos, .grid-tatuadores {
+  width: fit-content;
+  height: fit-content;
+  margin: 40px;
+  text-align: center;
+  gap: 30px;
+  display: grid; }
+
+.grid-estudios {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr; }
+
+.grid-estilos {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr; }
+
+.grid-tatuadores {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; }
 
 /* --------------------FIN GRIDS-------------------- */
 /*  ---------------DROPDOWN - BUSCADOR ------------- */
@@ -413,27 +417,6 @@ footer {
     background-color: whitesmoke; } }
 
 /* --------------------FIN ANIMACION-------------------- */
-#page404 {
-  height: 100vh;
-  background-image: url(../media/image/components/404bg.svg); }
-  #page404 #section-404 {
-    font-weight: bold;
-    border-radius: 10px;
-    background-color: whitesmoke;
-    border: solid black;
-    width: 50vh; }
-    #page404 #section-404 .text-404 {
-      text-align: center; }
-      #page404 #section-404 .text-404 h1 {
-        font-family: "Shrikhand", cursive; }
-      #page404 #section-404 .text-404 .homebtn {
-        background-color: #64dfdf;
-        text-decoration: none;
-        text-align: center;
-        border: solid black;
-        border-radius: 8px;
-        font-family: "Shrikhand",cursive; }
-
 /* -----------------MEDIA QUERIES----------------- */
 /* iPhone 4 ----------- */
 @media only screen and (max-width: 319px) {
@@ -669,3 +652,23 @@ footer {
   /* Styles */ }
 
 /* ------------FIN MEDIA QUERIES------------ */
+#page404 {
+  height: 100vh;
+  background-image: url(../media/image/components/404bg.svg); }
+  #page404 #section-404 {
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: solid black;
+    width: 50vh; }
+    #page404 #section-404 .text-404 {
+      text-align: center; }
+      #page404 #section-404 .text-404 h1 {
+        font-family: "Shrikhand", cursive; }
+      #page404 #section-404 .text-404 .homebtn {
+        background-color: #64dfdf;
+        text-decoration: none;
+        text-align: center;
+        border: solid black;
+        border-radius: 8px;
+        font-family: "Shrikhand",cursive; }
