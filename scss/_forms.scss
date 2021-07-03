@@ -1,9 +1,11 @@
 /* --------------FORMULARIO contacto.html-------------- */
+@import 'variables';
 form{
     background-color:whitesmoke;
     font-weight: bold;
     width: 50%;
-    border:#252525 dashed;
+    border: $borde-detail;
+    border-color: dashed;
     border-radius: 10px;
     padding: 20px;
     box-shadow: -23px 29px 57px -3px rgba(0,0,0,0.46);

@@ -217,7 +217,8 @@
         backface-visibility: hidden;
         -webkit-backface-visibility: hidden;
         border-radius: 30px;
-        border: dashed black;
+        border: $borde-detail;
+        border-color: black;
     }
 
     .flip-card-front {
