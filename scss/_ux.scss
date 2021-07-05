@@ -175,6 +175,14 @@
 
 }
 /* --------------- FIN DROPDOWN BUSCADOR ------------- */
+/*--------------ALERTA ESTUDIOS--------------*/
+.alert{
+    background-color: $color3;
+    border: $borde-basic;
+    float: center;
+    color: $color1;
+}
+/*-------------------------------------------*/
 /*--------------ACCORDION--------------*/
 // accordion que voy a usar para mejorar el responsive 
 .accordion-button{

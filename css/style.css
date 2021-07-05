@@ -338,6 +338,14 @@ footer {
   font-size: 1.5rem; }
 
 /* --------------- FIN DROPDOWN BUSCADOR ------------- */
+/*--------------ALERTA ESTUDIOS--------------*/
+.alert {
+  background-color: #64dfdf;
+  border: solid #000000 3px;
+  float: center;
+  color: #000000; }
+
+/*-------------------------------------------*/
 /*--------------ACCORDION--------------*/
 .accordion-button {
   background-color: #8ee8e8;
