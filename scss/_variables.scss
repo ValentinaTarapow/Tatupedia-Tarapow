@@ -1,13 +1,21 @@
 
-// Variables de Colores (Lista)
-// Todavia no lo estoy usando
+//Colores (Lista)
 $colores:
-    black,
+    #000000,
     #252525,
     #64dfdf,
     #f2f2f2,
-    whitesmoke,
-    white;
+    #f5f5f5,
+    #ffffff;
+
+    //Abreviacion para no tener que escribir nth siempre
+    $color1: nth($colores ,1);
+    $color2: nth($colores, 2);
+    $color3: nth($colores, 3);
+    $color4: nth($colores, 4);
+    $color5: nth($colores, 5);
+    $color6: nth($colores, 6);
+
 
 // Bordes
 $borde-basic: solid black 3px;

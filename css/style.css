@@ -118,7 +118,7 @@ header {
     header nav .navbar-brand {
       font-family: "amaticBold";
       color: #252525;
-      font-size: 2em;
+      font-size: 2rem;
       font-weight: bold; }
     header nav .nav-item {
       background-color: #252525;
@@ -126,14 +126,14 @@ header {
   header .titulo-negro {
     color: #252525;
     font-family: "amaticBold";
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: bolder;
     letter-spacing: 15px;
     margin-bottom: 0; }
   header .subtitulo-turquesa {
     color: #64dfdf;
     font-family: "amaticBold";
-    font-size: 2em;
+    font-size: 2rem;
     margin-bottom: 0; }
   header .rayita {
     border-top: solid black 3px;
@@ -173,7 +173,7 @@ form {
   .h1-container h1 {
     color: #252525;
     font-family: "amaticBold";
-    font-size: 80px;
+    font-size: 5rem;
     background-color: whitesmoke;
     border: solid black 3px;
     border-radius: 8px;
@@ -188,16 +188,16 @@ form {
 .h1-transform-h2 {
   color: #64dfdf;
   font-family: "amaticBold";
-  font-size: 45px; }
+  font-size: 2.8rem; }
 
 h2 {
   color: #64dfdf;
   font-family: "amaticBold";
-  font-size: 45px; }
+  font-size: 2.8rem; }
 
 h3 {
   font-family: "amaticBold";
-  font-size: 125%;
+  font-size: 1.5rem;
   padding-top: 20px;
   padding-bottom: 4px; }
 
@@ -384,7 +384,7 @@ footer {
 .grid-estudios .flip-card-front {
   color: black;
   font-family: "amaticBold";
-  font-size: 80px;
+  font-size: 5rem;
   background-color: whitesmoke;
   display: flex;
   align-items: center;
@@ -396,7 +396,7 @@ footer {
   border-color: whitesmoke;
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
-  font-size: 30px; }
+  font-size: 2rem; }
 
 .grid-estudios .flip-card-back p {
   font-weight: bold;
@@ -487,9 +487,9 @@ footer {
       width: 200px;
       height: 200px; }
     .grid-estudios .flip-card-back {
-      font-size: 15px; }
+      font-size: 1rem; }
     .grid-estudios .flip-card-front {
-      font-size: 35px; }
+      font-size: 2.2rem; }
     .grid-estudios #flip iframe {
       height: 100px;
       width: 95%; }
@@ -539,9 +539,9 @@ footer {
       width: 300px;
       height: 300px; }
     .grid-estudios .flip-card-back {
-      font-size: 20px; }
+      font-size: 1.25rem; }
     .grid-estudios .flip-card-front {
-      font-size: 60px; }
+      font-size: 3.75rem; }
     .grid-estudios #flip iframe {
       height: 55%;
       width: 95%; }
@@ -590,9 +590,9 @@ footer {
       width: 300px;
       height: 300px; }
     .grid-estudios .flip-card-front {
-      font-size: 40px; }
+      font-size: 2.5rem; }
     .grid-estudios .flip-card-back {
-      font-size: 150%; }
+      font-size: 1.5rem; }
     .grid-estudios #flip iframe {
       height: 60%;
       width: 95%; }
@@ -635,9 +635,9 @@ footer {
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   #marca {
-    font-size: 1.6em; }
+    font-size: 1.6rem; }
   #slogan {
-    font-size: 1.6em; }
+    font-size: 1.6rem; }
   form {
     width: 50vh; }
   /* -------CAROUSEL MIS TATUS-------- */

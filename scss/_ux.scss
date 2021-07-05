@@ -224,7 +224,7 @@
     .flip-card-front {
         color: black;
         font-family: "amaticBold";
-        font-size: 80px;
+        font-size: 5rem;
         background-color:whitesmoke;
         display: flex;
         align-items: center;
@@ -237,7 +237,7 @@
         border-color: whitesmoke;
         transform: rotateY(180deg);
         -webkit-transform: rotateY(180deg) ;
-        font-size: 30px;
+        font-size: 2rem;
     }
 
     .flip-card-back p{
