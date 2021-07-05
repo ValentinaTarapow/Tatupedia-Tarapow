@@ -100,6 +100,8 @@ header {
     header #logo img {
       margin-top: -60px;
       width: 170px; }
+    header #logo:hover {
+      cursor: url(../media/image/components/manchaCursor.svg), auto; }
   header nav {
     background-color: #f5f5f5;
     border-top: solid #000000 3px;
