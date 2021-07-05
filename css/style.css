@@ -9,6 +9,7 @@
   src: url("../fonts/Amatic_SC/AmaticSC-Regular.ttf") format("truetype");
   font-display: swap; }
 
+/*------------------------------------------------------- */
 /* ----------------RESETEO DE VALORES----------------*/
 * {
   margin: 0;
@@ -79,6 +80,7 @@ a {
   .seccion-negro a {
     color: #f5f5f5; }
 
+/*-----------------ENFASIS-----------------*/
 .word-danger {
   color: #ff4949;
   font-weight: bold; }
@@ -87,6 +89,7 @@ a {
   color: #64dfdf;
   font-weight: bold; }
 
+/*-----------------FIN ENFASIS-----------------*/
 /*--------------HEADER--------------*/
 header {
   background-color: transparent; }
@@ -163,7 +166,7 @@ form {
     background-color: #252525;
     color: #f5f5f5; }
 
-/* --------------------------------------------------- */
+/* -----------------------FIN FORMULARIO---------------------------- */
 /* --------------H's-------------- */
 .h1-container {
   width: 100%;
@@ -211,7 +214,7 @@ footer {
   color: #f5f5f5;
   margin-bottom: 15px; }
 
-/* ----------------------------*/
+/* ------------FIN FOOTER------------- */
 /*---------ELEMENTOS DE MOBILE---------*/
 #dropdown-mobile, #brand-mobile, #icon-mobile, .link-xs, .accordion {
   display: none; }
@@ -445,15 +448,19 @@ footer {
         border-radius: 8px;
         font-family: "Shrikhand",cursive; }
 
-/*------------------------------------------*/
+/*----------------------FIN 404--------------------*/
 /* -----------------MEDIA QUERIES----------------- */
 /* iPhone 4 ----------- */
 @media only screen and (max-width: 319px) {
   /* --------GENERALES-------- */
+  main {
+    margin: 5px; }
   .seccion-negro {
     padding: 10px; }
   .seccion-blanco {
     padding: 10px; }
+  h2 {
+    text-align: center; }
   .reverse-mobile {
     display: flex;
     flex-direction: column;
@@ -472,27 +479,23 @@ footer {
     display: flex;
     justify-content: center;
     text-align: center; }
-  h2 {
-    text-align: center; }
-  .link-xs {
-    display: unset;
-    width: 100vh;
-    background-color: #F277A4;
-    border-radius: 15px;
-    border: solid #000000 3px;
-    padding: 4px;
-    text-decoration: none;
-    font-family: "amaticBold";
-    font-size: 1.2rem;
-    font-weight: bold; }
+    .link-xs-container .link-xs {
+      display: unset;
+      width: 100vh;
+      background-color: #F277A4;
+      border-radius: 15px;
+      border: solid #000000 3px;
+      padding: 4px;
+      text-decoration: none;
+      font-family: "amaticBold";
+      font-size: 1.2rem;
+      font-weight: bold; }
   form {
     width: 100%; }
   #fixed-arrow a {
     height: 40px;
     width: 40px;
     border-radius: 30px 0 0 30px; }
-  main {
-    margin: 5px; }
   .video-size {
     width: 100%;
     height: 90%;
@@ -527,6 +530,8 @@ footer {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width: 380px) {
   /* --------GENERALES-------- */
+  main {
+    margin: 5px; }
   .reverse-mobile {
     display: flex;
     flex-direction: column;
@@ -540,8 +545,6 @@ footer {
     display: unset; }
   #icon-mobile {
     display: unset; }
-  main {
-    margin: 5px; }
   form {
     width: 100%; }
   .video-size {
@@ -578,6 +581,8 @@ footer {
 
 @media only screen and (min-width: 381px) and (max-width: 480px) {
   /* --------GENERALES-------- */
+  main {
+    margin: 5px; }
   .mobile-display-none {
     display: none; }
   .reverse-mobile {
@@ -591,8 +596,6 @@ footer {
     display: unset; }
   #icon-mobile {
     display: unset; }
-  main {
-    margin: 5px; }
   form {
     width: 100%; }
   .video-size {
@@ -661,6 +664,7 @@ footer {
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* --------GENERALES-------- */
   #marca {
     font-size: 1.6rem; }
   #slogan {

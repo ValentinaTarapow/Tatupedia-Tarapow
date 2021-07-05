@@ -5,12 +5,21 @@
 @media only screen and (max-width:319px) {
 
     /* --------GENERALES-------- */
+
+    main{
+        margin: 5px;
+    }
+
     .seccion-negro{
         padding:10px;
     }
 
     .seccion-blanco{
         padding: 10px;
+    }
+
+    h2{
+        text-align: center;
     }
 
     .reverse-mobile{
@@ -41,23 +50,19 @@
         display: flex;
         justify-content: center;
         text-align: center;
-    }
 
-    h2{
-        text-align: center;
-    }
-
-    .link-xs{
-        display: unset;
-        width: 100vh;
-        background-color: #F277A4;
-        border-radius: 15px;
-        border: $borde-basic;
-        padding: 4px;
-        text-decoration: none;
-        font-family: "amaticBold";
-        font-size: 1.2rem;
-        font-weight: bold;
+        .link-xs{
+            display: unset;
+            width: 100vh;
+            background-color: #F277A4;
+            border-radius: 15px;
+            border: $borde-basic;
+            padding: 4px;
+            text-decoration: none;
+            font-family: "amaticBold";
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
     }
 
     form{
@@ -70,10 +75,6 @@
             width: 40px;
             border-radius: 30px 0 0 30px;
         }
-    }
-
-    main{
-        margin: 5px;
     }
 
     .video-size{
@@ -146,6 +147,10 @@
 @media only screen and (min-width : 320px) and (max-width : 380px) {
 
     /* --------GENERALES-------- */
+
+    main{
+        margin: 5px;
+    }
     .reverse-mobile{
         display: flex;
         flex-direction: column;
@@ -167,10 +172,6 @@
 
     #icon-mobile{
         display:unset;
-    }
-
-    main{
-        margin: 5px;
     }
 
     form{
@@ -233,10 +234,7 @@
                     width: 15%;
                 }    
             }
-
         }
-
-
     /* ------------------------ */
 
 }
@@ -248,6 +246,11 @@
 @media only screen and (min-width : 381px) and (max-width : 480px){
 
     /* --------GENERALES-------- */
+
+    main{
+        margin: 5px;
+    }
+
     .mobile-display-none{
         display: none;
     }
@@ -267,10 +270,6 @@
     }
     #icon-mobile{
         display:unset;
-    }
-
-    main{
-        margin: 5px;
     }
 
     form{
@@ -333,8 +332,6 @@
                 }
             } 
         }
-
-        
     /* ------------------------ */
 }
 
@@ -401,13 +398,13 @@
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-width : 768px) and (max-width : 1024px) {
 
-        #marca{
-            font-size: 1.6rem;
-        }
-        #slogan {
-            font-size: 1.6rem;
-        }
-    
+    /* --------GENERALES-------- */
+    #marca{
+        font-size: 1.6rem;
+    }
+    #slogan {
+        font-size: 1.6rem;
+    }
 
     form{
         width: 50vh;
@@ -432,7 +429,7 @@
 
 /* Large screens ----------- */
 @media only screen and (min-width : 1824px) {
-  /* Styles */
+    /* Styles */
 }
 
 /* ------------FIN MEDIA QUERIES------------ */
