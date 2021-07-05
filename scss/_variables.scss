@@ -1,5 +1,5 @@
 
-//Colores (Lista)
+//Colores
 $colores:
     #000000,
     #252525,
@@ -16,9 +16,12 @@ $colores:
     $color5: nth($colores, 5);
     $color6: nth($colores, 6);
 
+$danger-color: #ff4949 ;
+$highlight-color: $color3;
+
 
 // Bordes
-$borde-basic: solid black 3px;
-$borde-detail: dashed 3px;
+$borde-basic: solid $color1 3px;
+$borde-detail: dashed $color1 3px;
 
 

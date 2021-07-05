@@ -1,5 +1,7 @@
-/* --------------H's-------------- */
 @import 'variables';
+
+/* --------------H's-------------- */
+
 
 .h1-container{ 
     width: 100%;
@@ -8,10 +10,10 @@
     justify-content: center;
 
     h1{
-        color: #252525;
+        color: $color2;
         font-family: "amaticBold";
         font-size: 5rem;
-        background-color: whitesmoke;
+        background-color: $color5;
         border:$borde-basic;
         border-radius: 8px;
         text-align: center;
@@ -23,16 +25,18 @@
         -moz-box-shadow: -18px 21px 32px -6px rgba(0,0,0,0.4);
     }
 }
-.h1-transform-h2{
-    color: #64dfdf ;
+
+%h2{
+    color: $color3;
     font-family: "amaticBold";
     font-size: 2.8rem;
 }
+.h1-transform-h2{
+    @extend %h2;
+}
 
 h2{
-    color: #64dfdf ;
-    font-family: "amaticBold";
-    font-size: 2.8rem;
+    @extend %h2;
 }
 
 h3{
@@ -43,8 +47,8 @@ h3{
 }
 
 h5{
-    background-color: #252525;
-    border:solid 1px #f5f5f5;
+    background-color: $color2;
+    border:solid 1px $color5;
     border-radius: 12px;
     font-family: "amaticBold";
 }

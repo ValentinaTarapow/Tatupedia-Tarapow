@@ -1,9 +1,11 @@
 @import 'variables';
+
+/* --------------FOOTER-------------- */
 footer{
-    background-color: #252525;
+    background-color: $color2;
     border: $borde-basic;
     padding: 20px; 
-    color:black;
-    color: whitesmoke;
+    color: $color5;
     margin-bottom: 15px;
 }
+/* ----------------------------*/

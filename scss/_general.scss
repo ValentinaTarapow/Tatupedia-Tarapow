@@ -1,4 +1,6 @@
-/* ---Reseteo de valores--- */
+@import 'variables';
+
+/* ----------------RESETEO DE VALORES----------------*/
 *{
     margin: 0;
     padding:0;
@@ -20,7 +22,7 @@ main{
 }
 
 a{
-    color: black;
+    color: $color1;
     font-weight: bold;
 
     &:visited{
@@ -32,7 +34,7 @@ a{
     }
 
 }
-// --------------SECCIONES--------------//
+/* --------------SECCIONES--------------*/
 .row{
     margin-left: 0;
     margin-right: 0;
@@ -58,15 +60,15 @@ a{
     margin-bottom:10px;
     padding: 20px;
     background-color: $backgroundColor ;
-    @if $backgroundColor == #252525{
+    @if $backgroundColor == $color2{
         a{
-            color: whitesmoke;
+            color: $color5;
         }
-        color: whitesmoke;
+        color: $color5;
     }
 }
 .seccion-blanco{
-    @include secciones(whitesmoke,#252525);
+    @include secciones($color5,$color2);
 
     box-shadow: 12px 10px 18px -1px rgba(0,0,0,0.67);
     -webkit-box-shadow: 12px 10px 18px -1px rgba(0,0,0,0.67);
@@ -85,7 +87,7 @@ a{
 }
 
 .seccion-negro{
-    @include secciones(#252525,#64dfdf);
+    @include secciones($color2,$color3);
 
     box-shadow: -11px 10px 18px -1px rgba(0,0,0,0.67);
     -webkit-box-shadow: -11px 10px 18px -1px rgba(0,0,0,0.67);
@@ -96,8 +98,8 @@ a{
 // -----------------MAPA------------------//
 
 $enfasis:(
-    danger: #ff4949,
-    highlight: #64dfdf,
+    danger: $danger-color,
+    highlight: $highlight-color,
 );
 
 @each $enfatizar, $color in $enfasis{

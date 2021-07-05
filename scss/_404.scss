@@ -1,3 +1,6 @@
+@import 'variables';
+
+/*--------------404-------------------------*/
 $anchoalto: 100vh;
 #page404{
     height: $anchoalto;
@@ -5,8 +8,8 @@ $anchoalto: 100vh;
     #section-404{
         font-weight: bold;
         border-radius: 10px;
-        background-color: whitesmoke;
-        border: solid black;
+        background-color: $color5;
+        border: $borde-basic;
         width: $anchoalto/2;
 
         .text-404{
@@ -15,13 +18,14 @@ $anchoalto: 100vh;
                 font-family: "Shrikhand", cursive;
             }
             .homebtn{
-                background-color: #64dfdf;
+                background-color: $color3;
                 text-decoration: none;
                 text-align: center;
-                border: solid black;
+                border: solid $color1;
                 border-radius: 8px;
                 font-family: "Shrikhand",cursive;
             }
         }
     }
 }
+/*------------------------------------------*/

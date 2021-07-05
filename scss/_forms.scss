@@ -1,11 +1,11 @@
-/* --------------FORMULARIO contacto.html-------------- */
 @import 'variables';
+
+/* --------------FORMULARIO contacto.html-------------- */
 form{
-    background-color:whitesmoke;
+    background-color:$color5;
     font-weight: bold;
     width: 50%;
     border: $borde-detail;
-    border-color: dashed;
     border-radius: 10px;
     padding: 20px;
     box-shadow: -23px 29px 57px -3px rgba(0,0,0,0.46);
@@ -15,8 +15,8 @@ form{
     flex-direction: column;
 
     .form-button{
-        background-color: #252525;
-        color: whitesmoke;
+        background-color: $color2;
+        color: $color5;
     }
 }
-/* --------------FIN FORMULARIO-------------- */
+/* --------------------------------------------------- */

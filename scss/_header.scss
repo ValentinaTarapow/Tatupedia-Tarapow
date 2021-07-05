@@ -1,4 +1,5 @@
 @import 'variables';
+
 /*--------------HEADER--------------*/
 header{
     background-color: transparent;
@@ -15,7 +16,7 @@ header{
         }
 
     nav{
-        background-color: whitesmoke;
+        background-color: $color5;
         border-top: $borde-basic;
         border-bottom: $borde-basic;
         margin-top: -35px;
@@ -34,7 +35,7 @@ header{
                     &:hover{
                         animation: change-color 1s;
                         border-radius: 3px;
-                        color: black !important;
+                        color: $color1 !important;
                         cursor: url(../media/image/components/manchaCursor.svg), auto;
                     }
                 } 
@@ -42,20 +43,20 @@ header{
 
         .navbar-brand{
             font-family: "amaticBold";
-            color: #252525;
+            color: $color2;
             font-size: 2rem;
             font-weight: bold;
         }
 
         .nav-item{
-            background-color: #252525;
+            background-color: $color2;
             border: $borde-basic;
             
         } 
     }
 
     .titulo-negro{
-        color:#252525 ;
+        color: $color2 ;
         font-family: "amaticBold";
         font-size: 2rem;
         font-weight: bolder;
@@ -64,7 +65,7 @@ header{
     }
 
     .subtitulo-turquesa{
-    color: #64dfdf ;
+    color: $color3;
     font-family: "amaticBold";
     font-size: 2rem;
     margin-bottom: 0;
@@ -73,7 +74,7 @@ header{
     .rayita{
         border-top: $borde-basic;
         border-bottom: $borde-basic;
-        background-color: whitesmoke;
+        background-color: $color5;
         height: 60px;
         margin-top: 55px;
         margin-bottom: 50px;
