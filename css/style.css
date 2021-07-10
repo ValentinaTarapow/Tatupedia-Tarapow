@@ -264,7 +264,7 @@ footer {
   #tatuadores .carousel .carousel-item img {
     border-radius: 3px; }
 
-#tatuadores .seccion-negro .carousel {
+#tatuadores .seccion-izquierda .carousel {
   border: 3px solid #64dfdf; }
 
 /* ------------------------------------------ */
@@ -473,9 +473,9 @@ footer {
   /* --------GENERALES-------- */
   main {
     margin: 5px; }
-  .seccion-negro {
+  .seccion-izquierda {
     padding: 10px; }
-  .seccion-blanco {
+  .seccion-derecha {
     padding: 10px; }
   h2 {
     text-align: center; }
@@ -500,7 +500,8 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
-    text-align: center; }
+    text-align: center;
+    margin-top: auto; }
     .link-xs-container .link-xs {
       display: unset;
       width: 100vh;
