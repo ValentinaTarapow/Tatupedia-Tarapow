@@ -214,8 +214,11 @@ footer {
 
 /* ------------FIN FOOTER------------- */
 /*---------ELEMENTOS DE MOBILE---------*/
-#dropdown-mobile, #brand-mobile, #icon-mobile, .link-xs, .accordion {
+#dropdown-mobile, #brand-mobile, #icon-mobile, .link-xs {
   display: none; }
+
+.accordion {
+  background-color: violet; }
 
 /*---------FIN ELEMENTOS DE MOBILE---------*/
 /*FLECHA SUBIR */
@@ -349,12 +352,31 @@ footer {
 
 /*-------------------------------------------*/
 /*--------------ACCORDION--------------*/
+.accordion {
+  border: solid #000000 3px; }
+
+.accordion-item {
+  border: solid #000000 3px; }
+
+.accordion-collapse {
+  background-color: #f5f5f5; }
+
+.accordion-body {
+  color: black; }
+
 .accordion-button {
   background-color: #8ee8e8;
   color: #f5f5f5; }
 
+.accordion-button.collapsed {
+  color: #000000; }
+
 .accordion-button:not(.collapsed) {
-  background-color: #64dfdf; }
+  background-color: #64dfdf;
+  color: #252525; }
+
+.accordion-button:focus {
+  border-color: #000000; }
 
 /*--------------FIN ACCORDION--------------*/
 /* --------------------FLIP CARD TRANSFORMATION-------------------- */

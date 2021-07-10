@@ -3,8 +3,12 @@
 //ACA VAN A ESTAR TODOS LOS ELEMENTOS QUE ENRIQUECEN LA INTERACCION CON EL USUARIO
 
 /*---------ELEMENTOS DE MOBILE---------*/
-#dropdown-mobile, #brand-mobile, #icon-mobile, .link-xs, .accordion{
+#dropdown-mobile, #brand-mobile, #icon-mobile, .link-xs{
     display: none;
+}
+
+.accordion{
+    background-color: violet;
 }
 /*---------FIN ELEMENTOS DE MOBILE---------*/
 
@@ -185,13 +189,39 @@
 }
 /*-------------------------------------------*/
 /*--------------ACCORDION--------------*/
-// accordion que voy a usar para mejorar el responsive 
+// accordion que voy a usar para mejorar el responsive
+
+.accordion{
+    border: $borde-basic;
+}
+
+.accordion-item{
+    border: $borde-basic;
+}
+
+.accordion-collapse{
+    background-color: $color5;
+}
+
+.accordion-body{
+    color: black;
+}
+
 .accordion-button{
     background-color: lighten($color3,10%);
     color: $color5;
 }
+.accordion-button.collapsed{
+    color: $color1
+}
+
 .accordion-button:not(.collapsed){
     background-color: $color3;
+    color: $color2;
+}
+
+.accordion-button:focus {
+    border-color: $color1;
 }
 /*--------------FIN ACCORDION--------------*/
 
