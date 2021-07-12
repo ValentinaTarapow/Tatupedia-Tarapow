@@ -481,6 +481,8 @@ footer {
   .h1-container h1 {
     font-size: 4rem; }
   #icon-tatuadores {
+    display: none; }
+  .mobile-display-none {
     display: none; } }
 
 /* -----------iPhone 4----------- */
