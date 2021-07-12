@@ -190,6 +190,9 @@
 
 .accordion{
     border: $borde-basic;
+    a{
+        color: $color1;
+    }
 }
 
 .accordion-item{
@@ -205,9 +208,12 @@
 }
 
 .accordion-button{
-    background-color: lighten($color3,10%);
+    background-color: lighten($color3,15%);
     color: $color5;
+    padding-left: 5px;
+    padding-right: 5px;
 }
+
 .accordion-button.collapsed{
     color: $color1
 }

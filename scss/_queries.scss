@@ -36,6 +36,10 @@
         display: none;
     }
 
+    .ipad-display-none{
+        display: none;
+    }
+
     #dropdown-mobile{
         display: flex;
         justify-content: center;
@@ -53,12 +57,24 @@
         display:none;
     }
 
+    #tatuadores{
+
+        h3{
+            font-size: 1rem;
+            padding: 0;
+            margin:0;
+        }
+        .card-body{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
     .link-xs-container{
         width: 100%;
         display: flex;
         justify-content: center;
         text-align: center;
-        margin-top: auto;
+        margin-top: 16px;
 
         .link-xs{
             display: unset;
@@ -170,6 +186,10 @@
         display: none;
     }
 
+    .ipad-display-none{
+        display: none;
+    }
+
     #dropdown-mobile{
         display: flex;
         justify-content: center;
@@ -177,6 +197,22 @@
 
     .accordion{
         display: block;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    #tatuadores{
+        h3{
+            font-size: 1.2rem;
+            padding: 0;
+            margin:0;
+        }
+        .card-body{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
     }
 
     #brand-mobile{
@@ -267,6 +303,11 @@
     .mobile-display-none{
         display: none;
     }
+
+    .ipad-display-none{
+        display: none;
+    }
+
     .reverse-mobile{
         display: flex;
         flex-direction: column;
@@ -319,6 +360,19 @@
         }
     }
     /* --------------- */
+    #tatuadores{
+        h2{
+            text-align: center;
+        }
+        h3{
+            padding: 0;
+            margin:0;
+        }
+        .card-body{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
 
     /* --------ESTUDIOS-------- */
         .grid-estudios{
@@ -365,6 +419,11 @@
     .mobile-display-none{
         display: none;
     }
+
+    .ipad-display-none{
+        display: none;
+    }
+
     #brand-mobile{
         display:unset;
     }
@@ -393,7 +452,16 @@
         flex-direction: column;
     }
     /* ------------------------ */
-
+    #tatuadores{
+        h3{
+            padding: 0;
+            margin:0;
+        }
+        .card-body{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
     /* -------CAROUSEL MIS TATUS-------- */
     #sobre-mi{
         .width-carousel{
@@ -439,6 +507,13 @@
     }
     /* ------------------------ */
 
+    .ipad-display-none{
+        display: none;
+    }
+
+    .accordion{
+        display: block;
+    }
 }
 
 
