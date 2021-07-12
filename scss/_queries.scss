@@ -1,6 +1,20 @@
 @import 'variables';
 
 /* -----------------MEDIA QUERIES----------------- */
+
+
+@media only screen and (max-width:241px){
+    #header-logo{
+        display: none;
+    }
+    .h1-container{
+        h1{
+            font-size: 4rem;
+        }
+    }
+
+}
+
 /* iPhone 4 ----------- */
 @media only screen and (max-width:319px) {
 
@@ -163,9 +177,6 @@
 /* ------------------------ */
     
 }
-
-
-
 
 
 /* Smartphones (portrait and landscape) ----------- */
