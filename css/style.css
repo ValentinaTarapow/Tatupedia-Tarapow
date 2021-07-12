@@ -217,10 +217,10 @@ footer {
 #dropdown-mobile, #brand-mobile, .link-xs, .accordion {
   display: none; }
 
+/*---------FIN ELEMENTOS DE MOBILE---------*/
 #icon-tatuadores {
   display: inline; }
 
-/*---------FIN ELEMENTOS DE MOBILE---------*/
 /*FLECHA SUBIR */
 #fixed-arrow {
   position: fixed;
