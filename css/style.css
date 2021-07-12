@@ -214,8 +214,11 @@ footer {
 
 /* ------------FIN FOOTER------------- */
 /*---------ELEMENTOS DE MOBILE---------*/
-#dropdown-mobile, #brand-mobile, #icon-mobile, .link-xs, .accordion {
+#dropdown-mobile, #brand-mobile, .link-xs, .accordion {
   display: none; }
+
+#icon-tatuadores {
+  display: inline; }
 
 /*---------FIN ELEMENTOS DE MOBILE---------*/
 /*FLECHA SUBIR */
@@ -476,9 +479,11 @@ footer {
   #header-logo {
     display: none; }
   .h1-container h1 {
-    font-size: 4rem; } }
+    font-size: 4rem; }
+  #icon-tatuadores {
+    display: none; } }
 
-/* iPhone 4 ----------- */
+/* -----------iPhone 4----------- */
 @media only screen and (max-width: 319px) {
   /* --------GENERALES-------- */
   main {
@@ -502,12 +507,12 @@ footer {
   #dropdown-mobile {
     display: flex;
     justify-content: center; }
+  #icon-tatuadores {
+    display: none; }
   .accordion {
     display: block; }
   #brand-mobile {
     display: unset; }
-  #icon-mobile {
-    display: none; }
   #tatuadores h3 {
     font-size: 1rem;
     padding: 0;
@@ -569,7 +574,7 @@ footer {
       width: 25px; }
   /* ------------------------ */ }
 
-/* Smartphones (portrait and landscape) ----------- */
+/* -----------Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width: 380px) {
   /* --------GENERALES-------- */
   main {
@@ -597,8 +602,6 @@ footer {
     padding-left: 0px;
     padding-right: 0px; }
   #brand-mobile {
-    display: unset; }
-  #icon-mobile {
     display: unset; }
   form {
     width: 100%; }
@@ -653,8 +656,6 @@ footer {
     display: block; }
   #brand-mobile {
     display: unset; }
-  #icon-mobile {
-    display: unset; }
   form {
     width: 100%; }
   .video-size {
@@ -707,8 +708,6 @@ footer {
     display: none; }
   #brand-mobile {
     display: unset; }
-  #icon-mobile {
-    display: unset; }
   #dropdown-mobile {
     display: flex;
     justify-content: center; }
@@ -739,7 +738,7 @@ footer {
     margin-top: 4px; }
   /* ------------------------ */ }
 
-/* iPads (portrait and landscape) ----------- */
+/* -----------iPads (portrait and landscape)----------- */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /* --------GENERALES-------- */
   #marca {
@@ -757,11 +756,11 @@ footer {
   .accordion {
     display: block; } }
 
-/* Desktops and laptops ----------- */
+/* -----------Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
   /* Styles */ }
 
-/* Large screens ----------- */
+/* -----------Large screens ----------- */
 @media only screen and (min-width: 1824px) {
   /* Styles */ }
 
