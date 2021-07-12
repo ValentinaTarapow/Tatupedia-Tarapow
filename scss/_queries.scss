@@ -412,6 +412,7 @@
 
 @media only screen and (min-width : 481px) and (max-width : 767px) {
 
+    $borde-basic: solid $color1 2px;
     /* --------GENERALES-------- */
     form{
         width: 100vh;
