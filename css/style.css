@@ -40,12 +40,6 @@ a {
   margin-left: 0;
   margin-right: 0; }
 
-.media-icon-container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end; }
-
 .seccion-derecha {
   border-radius: 10px;
   border: solid #000000 3px;
@@ -212,7 +206,7 @@ footer {
 
 /*----------------------------------*/
 #icon-tatuadores {
-  display: inline; }
+  margin-left: 5px; }
 
 /*---------FLECHA SUBIR--------- */
 #fixed-arrow {
