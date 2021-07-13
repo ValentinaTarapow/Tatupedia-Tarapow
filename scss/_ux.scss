@@ -235,14 +235,6 @@
         height: 350px;
         perspective: 1000px; 
 
-        #flip{
-            iframe{
-                height: 55%;
-                width: 95%;
-                margin-top: 20px;    
-            }
-        }
-
         .flip-card-inner {
             position: relative;
             width: 100%;
@@ -300,6 +292,14 @@
     .flip-card:hover .flip-card-inner {
         transform: rotateY(180deg);
         -webkit-transform:rotateY(180deg);
+    }
+
+    #flip{
+        iframe{
+            height: 55%;
+            width: 95%;
+            margin-top: 20px;    
+        }
     }
 }
 

@@ -36,7 +36,7 @@ header{
                     text-align: center;
 
                     &:hover{
-                        animation: change-color 1s;
+                        animation: change-color 1s ;
                         // border-radius: 3px;
                         cursor: url(../media/image/components/manchaCursor.svg), auto;
                     }
@@ -67,7 +67,7 @@ header{
     }
 
     .subtitulo-turquesa{
-    color: $color3;
+    color: $color7;
     font-family: "amaticBold";
     font-size: 2rem;
     margin-bottom: 0;

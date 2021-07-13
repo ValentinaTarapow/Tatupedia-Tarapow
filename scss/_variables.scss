@@ -6,7 +6,8 @@ $colores:
     #64dfdf,
     #f2f2f2,
     #f5f5f5,
-    #ffffff;
+    #ffffff,
+    #449898;
 
     //Abreviacion para no tener que escribir nth siempre
     $color1: nth($colores ,1);
@@ -15,6 +16,7 @@ $colores:
     $color4: nth($colores, 4);
     $color5: nth($colores, 5);
     $color6: nth($colores, 6);
+    $color7: nth($colores, 7);
 
 $danger-color: #ff4949 ;
 $highlight-color: $color3;

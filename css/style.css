@@ -61,7 +61,7 @@ a {
   -webkit-box-shadow: 12px 10px 18px -1px rgba(0, 0, 0, 0.67);
   -moz-box-shadow: 12px 10px 18px -1px rgba(0, 0, 0, 0.67); }
   .seccion-derecha h2 {
-    text-shadow: 0 0 1px #449898, -1px -1px 0 #449898,   1px -1px 0 #449898, -1px 1px 0 #449898, 1px 1px 0 #449898; }
+    text-shadow: 0 0 1px #449898, -1px -1px 0 #449898, 1px -1px 0 #449898, -1px 1px 0 #449898, 1px 1px 0 #449898; }
 
 .seccion-izquierda {
   border-radius: 10px;
@@ -133,7 +133,7 @@ header {
     letter-spacing: 15px;
     margin-bottom: 0; }
   header .subtitulo-turquesa {
-    color: #64dfdf;
+    color: #449898;
     font-family: "amaticBold";
     font-size: 2rem;
     margin-bottom: 0; }
@@ -374,10 +374,6 @@ footer {
   width: 350px;
   height: 350px;
   perspective: 1000px; }
-  .grid-estudios .flip-card #flip iframe {
-    height: 55%;
-    width: 95%;
-    margin-top: 20px; }
   .grid-estudios .flip-card .flip-card-inner {
     position: relative;
     width: 100%;
@@ -423,6 +419,11 @@ footer {
 .grid-estudios .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg); }
+
+.grid-estudios #flip iframe {
+  height: 55%;
+  width: 95%;
+  margin-top: 20px; }
 
 /* --------------------------------------------------------------- */
 /* ---------------------------ANIMACION-----------------------------*/
