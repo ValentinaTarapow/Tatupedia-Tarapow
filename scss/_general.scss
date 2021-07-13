@@ -46,10 +46,6 @@ a{
     align-items: flex-end;
 }
 
-.video-size{
-    width: 75%;
-}
-
 // MIXIN
 @mixin secciones ($backgroundColor,$borderColor){
     border-radius: 10px;

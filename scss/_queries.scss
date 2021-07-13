@@ -21,6 +21,14 @@
     .mobile-display-none{
         display: none;
     }
+
+    #mitos{
+        iframe{
+            width: 100%;
+            height: 80%;
+            margin-top: 4px;
+        }
+    }
 }
 
 /* -----------iPhone 4----------- */
@@ -81,10 +89,12 @@
         }
     }
 
-    .video-size{
-        width: 100%;
-        height: 90%;
-        margin-top: 10px;
+    #mitos{
+        iframe{
+            width: 100%;
+            height: 90%;
+            margin-top: 4px;
+        }
     }
     /* --------------------------------- */
 
@@ -224,14 +234,13 @@
         width: 100%;
     }
 
-    .video-size{
-        width: 70%;
-        height: 70%;
-        margin-top: 10px;
-        margin-left: 30px;
+    #mitos{
+        iframe{
+            width: 100%;
+            height: 60%;
+            margin-top: 4px;
+        }
     }
-
-
     /* --------------------------------- */
 
     /* --------TATUADORES.html-------- */
@@ -306,9 +315,6 @@
 }
 
 
-
-
-
 @media only screen and (min-width : 381px) and (max-width : 480px){
 
     /* --------GENERALES-------- */
@@ -342,11 +348,12 @@
         width: 100%;
     }
 
-    .video-size{
-        width: 70%;
-        height: 70%;
-        margin-top: 10px;
-        margin-left: 30px;
+    #mitos{
+        iframe{
+            width: 100%;
+            height: 70%;
+            margin-top: 0;
+        }
     }
     /* --------------------------------- */
 
@@ -450,6 +457,14 @@
     .accordion{
         display: block;
     }
+
+    #mitos{
+        iframe{
+            width: 90%;
+            height: 90%;
+            margin-top: 4px;
+        }
+    }
     /* ------------------------ */
 
     /* --------ESTUDIOS-------- */
@@ -517,6 +532,14 @@
 
     .accordion{
         display: block;
+    }
+
+    #mitos{
+        iframe{
+            width: 80%;
+            height: 80%;
+            margin-top: 4px;
+        }
     }
     /* ------------------------ */
 

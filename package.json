@@ -1,14 +1,14 @@
 {
   "name": "de-tatupedia-tarapow",
   "version": "1.0.0",
-  "description": "",
+  "description": "Somos un sitio web diseñado especialmente para adentrarte, guiarte e informarte dentro del mundo de los tatuajes.  Tenemos información de tatuadores, estudios, estilos de tatuaje, mitos, cuidados y más información de todo tipo, incluso podes hacer tu aporte!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
+  "author": "Valentina Tarapow",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.0",
