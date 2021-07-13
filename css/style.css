@@ -116,8 +116,6 @@ header {
         text-align: center; }
         header nav li a:hover {
           animation: change-color 1s;
-          border-radius: 3px;
-          color: #000000 !important;
           cursor: url(../media/image/components/manchaCursor.svg), auto; }
     header nav .navbar-brand {
       font-family: "amaticBold";
@@ -211,15 +209,15 @@ footer {
   margin-bottom: 15px; }
 
 /* ------------FIN FOOTER------------- */
-/*---------ELEMENTOS DE MOBILE---------*/
+/*---------ELEMENTOS MOBILE---------*/
 #dropdown-mobile, #brand-mobile, .link-xs, .accordion {
   display: none; }
 
-/*---------FIN ELEMENTOS DE MOBILE---------*/
+/*----------------------------------*/
 #icon-tatuadores {
   display: inline; }
 
-/*FLECHA SUBIR */
+/*---------FLECHA SUBIR--------- */
 #fixed-arrow {
   position: fixed;
   right: 0px;
@@ -234,8 +232,21 @@ footer {
     border-bottom: solid #000000 3px;
     border-left: solid #000000 3px; }
 
-/*------------*/
+/*-----------------------------*/
 /* -----------------CAROUSEL MIS TATUS----------------- */
+#sobre-mi #carousel-mis-tatus .img-carousel {
+  border-radius: 5px; }
+
+#sobre-mi #carousel-mis-tatus .carousel-caption {
+  margin-bottom: 0; }
+  #sobre-mi #carousel-mis-tatus .carousel-caption .caption {
+    background-color: #252525;
+    border: solid 1px #f5f5f5;
+    border-radius: 12px;
+    font-family: "amaticBold";
+    font-size: 1.25rem;
+    margin-bottom: 0; }
+
 #sobre-mi .width-carousel {
   width: 30%; }
 
@@ -243,22 +254,8 @@ footer {
   border-radius: 8px;
   border: 3px solid #252525; }
 
-#sobre-mi .img-carousel {
-  border-radius: 5px; }
-
-#sobre-mi #carousel-mis-tatus .carousel-caption {
-  margin-bottom: 0; }
-
-#sobre-mi #carousel-mis-tatus .caption {
-  background-color: #252525;
-  border: solid 1px #f5f5f5;
-  border-radius: 12px;
-  font-family: "amaticBold";
-  font-size: 1.25rem;
-  margin-bottom: 0; }
-
 /* ------------------------------------------ */
-/*-----------------CAROUSEL TATUADORES/ESTILOS----------------- */
+/*-----------------CAROUSEL TATUADORES----------------- */
 #tatuadores .carousel {
   border-radius: 8px;
   border: 3px solid #252525; }
@@ -269,7 +266,7 @@ footer {
   border: 3px solid #64dfdf; }
 
 /* ------------------------------------------ */
-/*--------------------BOTONERAS--------------------*/
+/*--------------------BOTONERAS ESTILOS/TATUADORES--------------------*/
 #botonera .botonera-item {
   display: flex;
   align-items: center;
@@ -290,7 +287,7 @@ footer {
   #botonera .botonera-item:hover {
     border-bottom: 0; }
 
-/*--------------------FIN BOTONERAS--------------------*/
+/*-----------------------------------------------------------------------*/
 /* --------------------GRIDS-------------------- */
 .grid-container {
   display: flex;
@@ -340,66 +337,56 @@ footer {
   background-color: #64dfdf;
   font-size: 1.5rem; }
 
-/* --------------- FIN DROPDOWN BUSCADOR ------------- */
-/*--------------ALERTA ESTUDIOS--------------*/
+/* --------------------------------------------------- */
+/*---------------------ALERTA ESTUDIOS-----------------*/
 .alert {
   background-color: #64dfdf;
   border: solid #000000 3px;
   float: center;
   color: #000000; }
 
-/*-------------------------------------------*/
-/*--------------ACCORDION--------------*/
+/*------------------------------------------------------*/
+/*---------------------ACCORDION------------------------*/
 .accordion {
   border: solid #000000 3px; }
   .accordion a {
     color: #000000; }
+  .accordion .accordion-item {
+    border-bottom: solid #000000 3px; }
+  .accordion .accordion-button {
+    background-color: #a3ecec;
+    color: #f5f5f5;
+    padding-left: 5px;
+    padding-right: 5px; }
+  .accordion .accordion-button.collapsed {
+    color: #000000; }
+  .accordion .accordion-button:not(.collapsed) {
+    background-color: #64dfdf;
+    color: #252525; }
+  .accordion .accordion-collapse {
+    background-color: #f5f5f5; }
+    .accordion .accordion-collapse .accordion-body {
+      color: black; }
 
-.accordion-item {
-  border: solid #000000 3px; }
-
-.accordion-collapse {
-  background-color: #f5f5f5; }
-
-.accordion-body {
-  color: black; }
-
-.accordion-button {
-  background-color: #a3ecec;
-  color: #f5f5f5;
-  padding-left: 5px;
-  padding-right: 5px; }
-
-.accordion-button.collapsed {
-  color: #000000; }
-
-.accordion-button:not(.collapsed) {
-  background-color: #64dfdf;
-  color: #252525; }
-
-.accordion-button:focus {
-  border-color: #000000; }
-
-/*--------------FIN ACCORDION--------------*/
+/*---------------------------------------------------------*/
 /* --------------------FLIP CARD TRANSFORMATION-------------------- */
 .grid-estudios .flip-card {
   width: 350px;
   height: 350px;
   perspective: 1000px; }
-
-.grid-estudios .flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-  -webkit-transition: transform 0.8s;
-  -webkit-transform-style: preserve-3d; }
-
-.grid-estudios .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg); }
+  .grid-estudios .flip-card #flip iframe {
+    height: 55%;
+    width: 95%;
+    margin-top: 20px; }
+  .grid-estudios .flip-card .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    -webkit-transition: transform 0.8s;
+    -webkit-transform-style: preserve-3d; }
 
 .grid-estudios .flip-card-front, .grid-estudios .flip-card-back {
   position: absolute;
@@ -427,28 +414,25 @@ footer {
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   font-size: 2rem; }
+  .grid-estudios .flip-card-back p {
+    font-weight: bold;
+    margin: 4px; }
+  .grid-estudios .flip-card-back a {
+    text-decoration: none; }
 
-.grid-estudios .flip-card-back p {
-  font-weight: bold;
-  margin: 4px; }
+.grid-estudios .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg); }
 
-.grid-estudios .flip-card-back a {
-  text-decoration: none; }
-
-.grid-estudios #flip iframe {
-  height: 55%;
-  width: 95%;
-  margin-top: 20px; }
-
-/* --------------------FIN FLIP CARD TRASNFORMATION-------------------- */
-/* --------------------ANIMACION--------------------*/
+/* --------------------------------------------------------------- */
+/* ---------------------------ANIMACION-----------------------------*/
 @keyframes change-color {
   0% {
     background-color: unset; }
   100% {
-    background-color: #f5f5f5; } }
+    background-color: #000000; } }
 
-/* --------------------FIN ANIMACION-------------------- */
+/* ----------------------------------------------------------------- */
 /*--------------404-------------------------*/
 #page404 {
   height: 100vh;
@@ -492,14 +476,10 @@ footer {
     padding: 10px; }
   .seccion-derecha {
     padding: 10px; }
-  h2 {
-    text-align: center; }
   .h1-transform-h2 {
     text-align: center; }
-  .reverse-mobile {
-    display: flex;
-    flex-direction: column;
-    flex-flow: column-reverse; }
+  h2 {
+    text-align: center; }
   .mobile-display-none {
     display: none; }
   .ipad-display-none {
@@ -507,36 +487,10 @@ footer {
   #dropdown-mobile {
     display: flex;
     justify-content: center; }
-  #icon-tatuadores {
-    display: none; }
   .accordion {
     display: block; }
   #brand-mobile {
     display: unset; }
-  #tatuadores h3 {
-    font-size: 1rem;
-    padding: 0;
-    margin: 0; }
-  #tatuadores .card-body {
-    padding-left: 0px;
-    padding-right: 0px; }
-  .link-xs-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 16px; }
-    .link-xs-container .link-xs {
-      display: unset;
-      width: 100vh;
-      background-color: #F277A4;
-      border-radius: 15px;
-      border: solid #000000 3px;
-      padding: 4px;
-      text-decoration: none;
-      font-family: "amaticBold";
-      font-size: 1.2rem;
-      font-weight: bold; }
   form {
     width: 100%; }
   #fixed-arrow a {
@@ -547,15 +501,47 @@ footer {
     width: 100%;
     height: 90%;
     margin-top: 10px; }
-  /* --------------- */
+  /* --------------------------------- */
+  /* --------TATUADORES.html-------- */
+  #tatuadores .card-body {
+    padding-left: 0px;
+    padding-right: 0px; }
+  #tatuadores .link-xs-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 16px; }
+    #tatuadores .link-xs-container .link-xs {
+      display: unset;
+      width: 100vh;
+      background-color: #F277A4;
+      border-radius: 15px;
+      border: solid #000000 3px;
+      padding: 4px;
+      text-decoration: none;
+      font-family: "amaticBold";
+      font-size: 1.2rem;
+      font-weight: bold; }
+  #tatuadores #icon-tatuadores {
+    display: none; }
+  #tatuadores .reverse-mobile {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column-reverse; }
+  #tatuadores h3 {
+    font-size: 1rem;
+    padding: 0;
+    margin: 0; }
+  /* --------------------------------- */
   /* -----CAROUSEL MIS TATUS----- */
   #sobre-mi .carousel-caption {
     height: 100%; }
-  #sobre-mi .carousel-caption .caption {
-    margin-top: 4px; }
+    #sobre-mi .carousel-caption .caption {
+      margin-top: 4px; }
   #sobre-mi .width-carousel {
     width: 90%; }
-  /* --------------- */
+  /* --------------------------------- */
   /* --------ESTUDIOS-------- */
   .grid-estudios {
     display: flex;
@@ -576,13 +562,9 @@ footer {
 
 /* -----------Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width: 380px) {
-  /* --------GENERALES-------- */
+  /* ----------GENERALES---------- */
   main {
     margin: 5px; }
-  .reverse-mobile {
-    display: flex;
-    flex-direction: column;
-    flex-flow: column-reverse; }
   .mobile-display-none {
     display: none; }
   .ipad-display-none {
@@ -594,13 +576,6 @@ footer {
     display: block; }
   h2 {
     text-align: center; }
-  #tatuadores h3 {
-    font-size: 1.2rem;
-    padding: 0;
-    margin: 0; }
-  #tatuadores .card-body {
-    padding-left: 0px;
-    padding-right: 0px; }
   #brand-mobile {
     display: unset; }
   form {
@@ -610,14 +585,27 @@ footer {
     height: 70%;
     margin-top: 10px;
     margin-left: 30px; }
-  /* ------------------------ */
+  /* --------------------------------- */
+  /* --------TATUADORES.html-------- */
+  #tatuadores .card-body {
+    padding-left: 0px;
+    padding-right: 0px; }
+  #tatuadores .reverse-mobile {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column-reverse; }
+  #tatuadores h3 {
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0; }
+  /* ------------------------------------ */
   /* -------CAROUSEL MIS TATUS-------- */
   #sobre-mi .width-carousel {
     width: 70%; }
   #sobre-mi .carousel-caption {
     height: 100%; }
-  #sobre-mi .carousel-caption .caption {
-    margin-top: 4px; }
+    #sobre-mi .carousel-caption .caption {
+      margin-top: 4px; }
   /* ------------------------ */
   /* --------ESTUDIOS-------- */
   .grid-estudios {
@@ -645,10 +633,6 @@ footer {
     display: none; }
   .ipad-display-none {
     display: none; }
-  .reverse-mobile {
-    display: flex;
-    flex-direction: column;
-    flex-flow: column-reverse; }
   #dropdown-mobile {
     display: flex;
     justify-content: center; }
@@ -663,15 +647,16 @@ footer {
     height: 70%;
     margin-top: 10px;
     margin-left: 30px; }
-  /* ------------------------ */
-  /* ---CAROUSEL MIS TATUS--- */
+  /* --------------------------------- */
+  /* -------CAROUSEL MIS TATUS------- */
   #sobre-mi .width-carousel {
     width: 70%; }
   #sobre-mi .carousel-caption {
     height: 100%; }
-  #sobre-mi .carousel-caption .caption {
-    margin-top: 4px; }
-  /* --------------- */
+    #sobre-mi .carousel-caption .caption {
+      margin-top: 4px; }
+  /* ------------------------------- */
+  /* --------TATUADORES.html-------- */
   #tatuadores h2 {
     text-align: center; }
   #tatuadores h3 {
@@ -680,7 +665,12 @@ footer {
   #tatuadores .card-body {
     padding-left: 0px;
     padding-right: 0px; }
-  /* --------ESTUDIOS-------- */
+  #tatuadores .reverse-mobile {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column-reverse; }
+  /* --------------------------------- */
+  /* --------ESTUDIOS.html--------------- */
   .grid-estudios {
     display: flex;
     flex-direction: column; }
@@ -696,7 +686,7 @@ footer {
       width: 95%; }
     .grid-estudios #flip img {
       width: 15%; }
-  /* ------------------------ */ }
+  /* ------------------------------- */ }
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
   /* --------GENERALES-------- */
@@ -714,28 +704,30 @@ footer {
   .accordion {
     display: block; }
   /* ------------------------ */
-  .reverse-mobile {
-    display: flex;
-    flex-direction: column;
-    flex-flow: column-reverse; }
   /* --------ESTUDIOS-------- */
   .grid-estudios {
     display: flex;
     flex-direction: column; }
   /* ------------------------ */
+  /* --------TATUADORES.html-------- */
   #tatuadores h3 {
     padding: 0;
     margin: 0; }
   #tatuadores .card-body {
     padding-left: 0px;
     padding-right: 0px; }
+  #tatuadores .reverse-mobile {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column-reverse; }
+  /* ------------------------------- */
   /* -------CAROUSEL MIS TATUS-------- */
   #sobre-mi .width-carousel {
     width: 50%; }
   #sobre-mi .carousel-caption {
     height: 100%; }
-  #sobre-mi .carousel-caption .caption {
-    margin-top: 4px; }
+    #sobre-mi .carousel-caption .caption {
+      margin-top: 4px; }
   /* ------------------------ */ }
 
 /* -----------iPads (portrait and landscape)----------- */
@@ -747,14 +739,15 @@ footer {
     font-size: 1.6rem; }
   form {
     width: 50vh; }
-  /* -------CAROUSEL MIS TATUS-------- */
-  #sobre-mi .width-carousel {
-    width: 60%; }
-  /* ------------------------ */
   .ipad-display-none {
     display: none; }
   .accordion {
-    display: block; } }
+    display: block; }
+  /* ------------------------ */
+  /* -------CAROUSEL MIS TATUS-------- */
+  #sobre-mi .width-carousel {
+    width: 60%; }
+  /* ------------------------ */ }
 
 /* -----------Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {

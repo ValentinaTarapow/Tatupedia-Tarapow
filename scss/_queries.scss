@@ -7,6 +7,7 @@
     #header-logo{
         display: none;
     }
+
     .h1-container{
         h1{
             font-size: 4rem;
@@ -26,7 +27,6 @@
 @media only screen and (max-width:319px) {
 
     /* --------GENERALES-------- */
-
     main{
         margin: 5px;
     }
@@ -39,18 +39,12 @@
         padding: 10px;
     }
 
-    h2{
-        text-align: center;
-    }
-
     .h1-transform-h2{
         text-align: center;
     }
 
-    .reverse-mobile{
-        display: flex;
-        flex-direction: column;
-        flex-flow: column-reverse;
+    h2{
+        text-align: center;
     }
 
     .mobile-display-none{
@@ -66,10 +60,6 @@
         justify-content: center;
     }
 
-    #icon-tatuadores{
-        display: none;
-    }
-
     .accordion{
         display: block;
     }
@@ -78,38 +68,6 @@
         display:unset;
     }
 
-    #tatuadores{
-
-        h3{
-            font-size: 1rem;
-            padding: 0;
-            margin:0;
-        }
-        .card-body{
-            padding-left: 0px;
-            padding-right: 0px;
-        }
-    }
-    .link-xs-container{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        margin-top: 16px;
-
-        .link-xs{
-            display: unset;
-            width: 100vh;
-            background-color: #F277A4;
-            border-radius: 15px;
-            border: $borde-basic;
-            padding: 4px;
-            text-decoration: none;
-            font-family: "amaticBold";
-            font-size: 1.2rem;
-            font-weight: bold;
-        }
-    }
 
     form{
         width: 100%;
@@ -128,19 +86,65 @@
         height: 90%;
         margin-top: 10px;
     }
-    /* --------------- */
+    /* --------------------------------- */
+
+    /* --------TATUADORES.html-------- */
+
+    #tatuadores{
+        .card-body{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .link-xs-container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-top: 16px;
+    
+            .link-xs{
+                display: unset;
+                width: 100vh;
+                background-color: #F277A4;
+                border-radius: 15px;
+                border: $borde-basic;
+                padding: 4px;
+                text-decoration: none;
+                font-family: "amaticBold";
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+        }
+
+        #icon-tatuadores{
+            display: none;
+        }
+
+        .reverse-mobile{
+            display: flex;
+            flex-direction: column;
+            flex-flow: column-reverse;
+        }
+
+        h3{
+            font-size: 1rem;
+            padding: 0;
+            margin:0;
+        }
+    }
+
+    /* --------------------------------- */
 
     /* -----CAROUSEL MIS TATUS----- */
     #sobre-mi{
-        .carousel-caption{
-            height: 100%;
-        }
 
         .carousel-caption{
+            height: 100%;
+
             .caption{
                 margin-top: 4px;
             }
-
         }
 
         .width-carousel{
@@ -148,7 +152,7 @@
         }
     }
 
-    /* --------------- */
+    /* --------------------------------- */
     /* --------ESTUDIOS-------- */
     .grid-estudios{
 
@@ -158,7 +162,7 @@
         .flip-card {
             width: 200px;
             height: 200px;
-            }
+        }
 
         .flip-card-back {
             font-size: 1rem;
@@ -177,26 +181,18 @@
             img{
                 width: 25px;
             }  
-        } 
-
+        }
     }
-    
-/* ------------------------ */
-    
+    /* ------------------------ */
 }
 
 
 /* -----------Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width : 320px) and (max-width : 380px) {
 
-    /* --------GENERALES-------- */
+    /* ----------GENERALES---------- */
     main{
         margin: 5px;
-    }
-    .reverse-mobile{
-        display: flex;
-        flex-direction: column;
-        flex-flow: column-reverse;
     }
 
     .mobile-display-none{
@@ -220,18 +216,6 @@
         text-align: center;
     }
 
-    #tatuadores{
-        h3{
-            font-size: 1.2rem;
-            padding: 0;
-            margin:0;
-        }
-        .card-body{
-            padding-left: 0px;
-            padding-right: 0px;
-        }
-    }
-
     #brand-mobile{
         display:unset;
     }
@@ -246,7 +230,30 @@
         margin-top: 10px;
         margin-left: 30px;
     }
-    /* ------------------------ */
+
+
+    /* --------------------------------- */
+
+    /* --------TATUADORES.html-------- */
+    #tatuadores{
+        .card-body{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .reverse-mobile{
+            display: flex;
+            flex-direction: column;
+            flex-flow: column-reverse;
+        }
+
+        h3{
+            font-size: 1.2rem;
+            padding: 0;
+            margin:0;
+        }
+    }
+    /* ------------------------------------ */
 
     /* -------CAROUSEL MIS TATUS-------- */
     #sobre-mi{
@@ -256,9 +263,6 @@
 
         .carousel-caption{
             height: 100%;
-        }
-
-        .carousel-caption{
             .caption{
                 margin-top: 4px;
             }
@@ -273,10 +277,10 @@
             display: flex;
             flex-direction: column;
 
-            .flip-card {
+            .flip-card{
                 width: 300px;
                 height: 300px;
-                }
+            }
     
             .flip-card-back {
                 font-size: 1.25rem;
@@ -285,13 +289,13 @@
             .flip-card-front{
                 font-size: 3.75rem;
             }
-    
+
             #flip{
                 iframe{
                     height: 55%;
                     width: 95%;
                 }
-    
+            
                 img{
                     width: 15%;
                 }    
@@ -321,12 +325,6 @@
         display: none;
     }
 
-    .reverse-mobile{
-        display: flex;
-        flex-direction: column;
-        flex-flow: column-reverse;
-    }
-
     #dropdown-mobile{
         display: flex;
         justify-content: center;
@@ -350,9 +348,9 @@
         margin-top: 10px;
         margin-left: 30px;
     }
-    /* ------------------------ */
+    /* --------------------------------- */
 
-    /* ---CAROUSEL MIS TATUS--- */
+    /* -------CAROUSEL MIS TATUS------- */
     #sobre-mi{
         .width-carousel{
             width: 70%;
@@ -360,16 +358,15 @@
 
         .carousel-caption{
             height: 100%;
-        }
 
-        .carousel-caption{
             .caption{
                 margin-top: 4px;
             }
             
         }
     }
-    /* --------------- */
+    /* ------------------------------- */
+    /* --------TATUADORES.html-------- */
     #tatuadores{
         h2{
             text-align: center;
@@ -382,16 +379,23 @@
             padding-left: 0px;
             padding-right: 0px;
         }
-    }
 
-    /* --------ESTUDIOS-------- */
+        .reverse-mobile{
+            display: flex;
+            flex-direction: column;
+            flex-flow: column-reverse;
+        }
+    }
+    /* --------------------------------- */
+
+    /* --------ESTUDIOS.html--------------- */
         .grid-estudios{
             display: flex;
             flex-direction: column;
 
             .flip-card {
-            width: 300px;
-            height:300px;
+                width: 300px;
+                height:300px;
             }
 
             .flip-card-front {
@@ -413,7 +417,7 @@
                 }
             } 
         }
-    /* ------------------------ */
+    /* ------------------------------- */
 }
 
 
@@ -447,11 +451,6 @@
         display: block;
     }
     /* ------------------------ */
-    .reverse-mobile{
-        display: flex;
-        flex-direction: column;
-        flex-flow: column-reverse;
-    }
 
     /* --------ESTUDIOS-------- */
     .grid-estudios{
@@ -459,6 +458,8 @@
         flex-direction: column;
     }
     /* ------------------------ */
+
+    /* --------TATUADORES.html-------- */
     #tatuadores{
         h3{
             padding: 0;
@@ -468,7 +469,15 @@
             padding-left: 0px;
             padding-right: 0px;
         }
+
+        .reverse-mobile{
+            display: flex;
+            flex-direction: column;
+            flex-flow: column-reverse;
+        }
     }
+    /* ------------------------------- */
+
     /* -------CAROUSEL MIS TATUS-------- */
     #sobre-mi{
         .width-carousel{
@@ -477,16 +486,12 @@
 
         .carousel-caption{
             height: 100%;
-        }
-
-        .carousel-caption{
+        
             .caption{
                 margin-top: 4px;
             }
-            
         }
     }
-
     /* ------------------------ */
 
 }
@@ -506,14 +511,6 @@
         width: 50vh;
     }
 
-    /* -------CAROUSEL MIS TATUS-------- */
-    #sobre-mi{
-        .width-carousel{
-            width: 60%;
-        }
-    }
-    /* ------------------------ */
-
     .ipad-display-none{
         display: none;
     }
@@ -521,6 +518,15 @@
     .accordion{
         display: block;
     }
+    /* ------------------------ */
+
+    /* -------CAROUSEL MIS TATUS-------- */
+    #sobre-mi{
+        .width-carousel{
+            width: 60%;
+        }
+    }
+    /* ------------------------ */
 }
 
 

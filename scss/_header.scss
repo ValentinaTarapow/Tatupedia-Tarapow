@@ -37,8 +37,7 @@ header{
 
                     &:hover{
                         animation: change-color 1s;
-                        border-radius: 3px;
-                        color: $color1 !important;
+                        // border-radius: 3px;
                         cursor: url(../media/image/components/manchaCursor.svg), auto;
                     }
                 } 
