@@ -403,7 +403,7 @@ footer {
   font-size: 2rem; }
   .grid-estudios .flip-card-back p {
     font-weight: bold;
-    margin: 4px; }
+    margin-top: 4px; }
   .grid-estudios .flip-card-back a {
     text-decoration: none; }
 
@@ -676,7 +676,7 @@ footer {
     .grid-estudios .flip-card-back {
       font-size: 1.5rem; }
     .grid-estudios #flip iframe {
-      height: 60%;
+      height: 55%;
       width: 95%; }
     .grid-estudios #flip img {
       width: 15%; }
