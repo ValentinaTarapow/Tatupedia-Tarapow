@@ -575,6 +575,8 @@ footer {
     justify-content: center; }
   .accordion {
     display: block; }
+  .h1-transform-h2 {
+    text-align: center; }
   h2 {
     text-align: center; }
   #brand-mobile {
@@ -633,6 +635,10 @@ footer {
     margin: 5px; }
   .mobile-display-none {
     display: none; }
+  .h1-transform-h2 {
+    text-align: center; }
+  h2 {
+    text-align: center; }
   .ipad-display-none {
     display: none; }
   #dropdown-mobile {
