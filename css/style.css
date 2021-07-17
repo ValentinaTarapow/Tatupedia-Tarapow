@@ -177,7 +177,7 @@ form {
     -webkit-box-shadow: -18px 21px 32px -6px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: -18px 21px 32px -6px rgba(0, 0, 0, 0.4); }
 
-#h1-transform-h2, h2 {
+.h1-transform-h2, h2 {
   color: #64dfdf;
   font-family: "amaticBold";
   font-size: 2.8rem; }
@@ -474,7 +474,7 @@ footer {
     padding: 10px; }
   .seccion-derecha {
     padding: 10px; }
-  #h1-transform-h2 {
+  .h1-transform-h2 {
     text-align: center; }
   h2 {
     text-align: center; }
@@ -574,7 +574,7 @@ footer {
     justify-content: center; }
   .accordion {
     display: block; }
-  #h1-transform-h2 {
+  .h1-transform-h2 {
     text-align: center; }
   h2 {
     text-align: center; }
@@ -634,7 +634,7 @@ footer {
     margin: 5px; }
   .mobile-display-none {
     display: none; }
-  #h1-transform-h2 {
+  .h1-transform-h2 {
     text-align: center; }
   h2 {
     text-align: center; }
