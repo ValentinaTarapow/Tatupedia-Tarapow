@@ -29,11 +29,6 @@
             margin-top: 4px;
         }
     }
-
-    .card-title{
-        display: flex;
-        justify-content: center;
-    }
 }
 
 /* -----------iPhone 4----------- */
@@ -109,11 +104,6 @@
         .card-body{
             padding-left: 0px;
             padding-right: 0px;
-        }
-
-        .card-title{
-            display: flex;
-            justify-content: center;
         }
 
         .link-xs-container{
@@ -271,11 +261,6 @@
             padding: 0;
             margin:0;
         }
-
-        .card-title{
-            display: flex;
-            justify-content: center;
-        }
     }
     /* ------------------------------------ */
 
@@ -407,11 +392,6 @@
             flex-direction: column;
             flex-flow: column-reverse;
         }
-
-        .card-title{
-            display: flex;
-            justify-content: center;
-        }
     }
     /* --------------------------------- */
 
@@ -509,11 +489,6 @@
             display: flex;
             flex-direction: column;
             flex-flow: column-reverse;
-        }
-
-        .card-title{
-            display: flex;
-            justify-content: center;
         }
     }
     /* ------------------------------- */
