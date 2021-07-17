@@ -29,6 +29,10 @@
             margin-top: 4px;
         }
     }
+
+    .card-title{
+        justify-content: center;
+    }
 }
 
 /* -----------iPhone 4----------- */
@@ -104,6 +108,10 @@
         .card-body{
             padding-left: 0px;
             padding-right: 0px;
+        }
+
+        .card-title{
+            justify-content: center;
         }
 
         .link-xs-container{
@@ -245,6 +253,11 @@
 
     /* --------TATUADORES.html-------- */
     #tatuadores{
+
+        .card-title{
+            justify-content: center;
+        }
+
         .card-body{
             padding-left: 0px;
             padding-right: 0px;
@@ -378,13 +391,19 @@
         h2{
             text-align: center;
         }
+
         h3{
             padding: 0;
             margin:0;
         }
+
         .card-body{
             padding-left: 0px;
             padding-right: 0px;
+        }
+
+        .card-title{
+            justify-content: center;
         }
 
         .reverse-mobile{
@@ -480,9 +499,14 @@
             padding: 0;
             margin:0;
         }
+
         .card-body{
             padding-left: 0px;
             padding-right: 0px;
+        }
+
+        .card-title{
+            justify-content: center;
         }
 
         .reverse-mobile{
